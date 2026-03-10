@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><edgarSubmission xmlns="http://www.sec.gov/edgar/schedule13D" xmlns:com="http://www.sec.gov/edgar/common">
+  <headerData>
+    <submissionType>SCHEDULE 13D/A</submissionType>
+    <filerInfo>
+      <filer>
+        <filerCredentials>
+          <!-- Field: Pseudo-Tag; ID: Name; Data: Gebbia Gloria E -->
+          <cik>0001692471</cik>
+          <ccc>XXXXXXXX</ccc>
+        </filerCredentials>
+      </filer>
+      <liveTestFlag>LIVE</liveTestFlag>
+
+
+
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPageHeader>
+      <amendmentNo>28</amendmentNo>
+      <securitiesClassTitle>Common Stock, par value $0.01 per share</securitiesClassTitle>
+      <dateOfEvent>06/10/2025</dateOfEvent>
+      <previouslyFiledFlag>false</previouslyFiledFlag>
+      <issuerInfo>
+        <issuerCIK>0000065596</issuerCIK>
+        <issuerCUSIP>826176109</issuerCUSIP>
+        <issuerName>Siebert Financial Corp.</issuerName>
+        <address>
+          <com:street1>653 Collins Avenue</com:street1>
+          <com:city>Miami Beach</com:city>
+          <com:stateOrCountry>FL</com:stateOrCountry>
+          <com:zipCode>33139</com:zipCode>
+        </address>
+      </issuerInfo>
+      <authorizedPersons>
+        <notificationInfo>
+          <personName>Gloria E. Gebbia Director</personName>
+          <personPhoneNum>(212) 644-2400</personPhoneNum>
+          <personAddress>
+            <com:street1>Siebert Financial Corp.</com:street1>
+            <com:street2>653 Collins Avenue</com:street2>
+            <com:city>Miami Beach</com:city>
+            <com:stateOrCountry>FL</com:stateOrCountry>
+            <com:zipCode>33139</com:zipCode>
+          </personAddress>
+        </notificationInfo>
+      </authorizedPersons>
+    </coverPageHeader>
+    <reportingPersons>
+      <reportingPersonInfo>
+        <reportingPersonCIK>0001692471</reportingPersonCIK>
+        <reportingPersonNoCIK>N</reportingPersonNoCIK>
+        <reportingPersonName>Gloria E. Gebbia</reportingPersonName>
+        <memberOfGroup>a</memberOfGroup>
+        <fundType>PF</fundType>
+        <legalProceedings>N</legalProceedings>
+        <citizenshipOrOrganization>X1</citizenshipOrOrganization>
+        <soleVotingPower>0.00</soleVotingPower>
+        <sharedVotingPower>16941323.00</sharedVotingPower>
+        <soleDispositivePower>0.00</soleDispositivePower>
+        <sharedDispositivePower>16941323.00</sharedDispositivePower>
+        <aggregateAmountOwned>16941323.00</aggregateAmountOwned>
+        <isAggregateExcludeShares>N</isAggregateExcludeShares>
+        <percentOfClass>42</percentOfClass>
+        <typeOfReportingPerson>IN</typeOfReportingPerson>
+        <commentContent>* Percentage of class calculated based on 40,419,936 shares outstanding of Common Stock as of June 12, 2025</commentContent>
+      </reportingPersonInfo>
+      <reportingPersonInfo>
+        <reportingPersonNoCIK>Y</reportingPersonNoCIK>
+        <reportingPersonName>John M. Gebbia</reportingPersonName>
+        <memberOfGroup>a</memberOfGroup>
+        <fundType>PF</fundType>
+        <legalProceedings>N</legalProceedings>
+        <citizenshipOrOrganization>X1</citizenshipOrOrganization>
+        <soleVotingPower>1924891.00</soleVotingPower>
+        <sharedVotingPower>16941323.00</sharedVotingPower>
+        <soleDispositivePower>1924891.00</soleDispositivePower>
+        <sharedDispositivePower>16941323.00</sharedDispositivePower>
+        <aggregateAmountOwned>16941323.00</aggregateAmountOwned>
+        <isAggregateExcludeShares>N</isAggregateExcludeShares>
+        <percentOfClass>42</percentOfClass>
+        <typeOfReportingPerson>IN</typeOfReportingPerson>
+        <commentContent>* Percentage of class calculated based on 40,419,936 shares outstanding of Common Stock as of June 12, 2025</commentContent>
+      </reportingPersonInfo>
+      <reportingPersonInfo>
+        <reportingPersonNoCIK>Y</reportingPersonNoCIK>
+        <reportingPersonName>Richard Gebbia</reportingPersonName>
+        <memberOfGroup>a</memberOfGroup>
+        <fundType>PF</fundType>
+        <legalProceedings>N</legalProceedings>
+        <citizenshipOrOrganization>X1</citizenshipOrOrganization>
+        <soleVotingPower>3078127.00</soleVotingPower>
+        <sharedVotingPower>16941323.00</sharedVotingPower>
+        <soleDispositivePower>3078127.00</soleDispositivePower>
+        <sharedDispositivePower>16941323.00</sharedDispositivePower>
+        <aggregateAmountOwned>16941323.00</aggregateAmountOwned>
+        <isAggregateExcludeShares>N</isAggregateExcludeShares>
+        <percentOfClass>42</percentOfClass>
+        <typeOfReportingPerson>IN</typeOfReportingPerson>
+        <commentContent>* Percentage of class calculated based on 40,419,936 shares outstanding of Common Stock as of June 12, 2025</commentContent>
+      </reportingPersonInfo>
+      <reportingPersonInfo>
+        <reportingPersonNoCIK>Y</reportingPersonNoCIK>
+        <reportingPersonName>David Gebbia</reportingPersonName>
+        <memberOfGroup>a</memberOfGroup>
+        <fundType>PF</fundType>
+        <legalProceedings>N</legalProceedings>
+        <citizenshipOrOrganization>X1</citizenshipOrOrganization>
+        <soleVotingPower>1415318.00</soleVotingPower>
+        <sharedVotingPower>16941323.00</sharedVotingPower>
+        <soleDispositivePower>1415318.00</soleDispositivePower>
+        <sharedDispositivePower>16941323.00</sharedDispositivePower>
+        <aggregateAmountOwned>16941323.00</aggregateAmountOwned>
+        <isAggregateExcludeShares>N</isAggregateExcludeShares>
+        <percentOfClass>42</percentOfClass>
+        <typeOfReportingPerson>IN</typeOfReportingPerson>
+        <commentContent>* Percentage of class calculated based on 40,419,936 shares outstanding of Common Stock as of June 12, 2025</commentContent>
+      </reportingPersonInfo>
+      <reportingPersonInfo>
+        <reportingPersonNoCIK>Y</reportingPersonNoCIK>
+        <reportingPersonName>John J &amp; Gloria E Gebbia TTEESS UAD 12/8/94 "Gebbia Living Trust"</reportingPersonName>
+        <memberOfGroup>a</memberOfGroup>
+        <fundType>PF</fundType>
+        <legalProceedings>N</legalProceedings>
+        <citizenshipOrOrganization>CA</citizenshipOrOrganization>
+        <soleVotingPower>9697714.00</soleVotingPower>
+        <sharedVotingPower>16941323.00</sharedVotingPower>
+        <soleDispositivePower>9697714.00</soleDispositivePower>
+        <sharedDispositivePower>16941323.00</sharedDispositivePower>
+        <aggregateAmountOwned>16941323.00</aggregateAmountOwned>
+        <isAggregateExcludeShares>N</isAggregateExcludeShares>
+        <percentOfClass>42</percentOfClass>
+        <typeOfReportingPerson>IN</typeOfReportingPerson>
+        <commentContent>* Percentage of class calculated based on 40,419,936 shares outstanding of Common Stock as of June 12, 2025</commentContent>
+      </reportingPersonInfo>
+      <reportingPersonInfo>
+        <reportingPersonNoCIK>Y</reportingPersonNoCIK>
+        <reportingPersonName>John J. Gebbia</reportingPersonName>
+        <memberOfGroup>a</memberOfGroup>
+        <fundType>PF</fundType>
+        <legalProceedings>N</legalProceedings>
+        <citizenshipOrOrganization>X1</citizenshipOrOrganization>
+        <soleVotingPower>0.00</soleVotingPower>
+        <sharedVotingPower>16941323.00</sharedVotingPower>
+        <soleDispositivePower>0.00</soleDispositivePower>
+        <sharedDispositivePower>16941323.00</sharedDispositivePower>
+        <aggregateAmountOwned>16941323.00</aggregateAmountOwned>
+        <isAggregateExcludeShares>N</isAggregateExcludeShares>
+        <percentOfClass>42</percentOfClass>
+        <typeOfReportingPerson>IN</typeOfReportingPerson>
+        <commentContent>* Percentage of class calculated based on 40,419,936 shares outstanding of Common Stock as of June 12, 2025</commentContent>
+      </reportingPersonInfo>
+    </reportingPersons>
+    <items1To7>
+      <item1>
+        <securityTitle>Common Stock, par value $0.01 per share</securityTitle>
+        <issuerName>Siebert Financial Corp.</issuerName>
+        <issuerPrincipalAddress>
+          <com:street1>653 Collins Avenue</com:street1>
+          <com:city>Miami Beach</com:city>
+          <com:stateOrCountry>FL</com:stateOrCountry>
+          <com:zipCode>33139</com:zipCode>
+        </issuerPrincipalAddress>
+        <commentText>This Amendment 28 to Schedule 13D (this "Amendment") amends Amendment 27 to Schedule 13D filed on May 29, 2025.
+
+Amendment 27 to Schedule 13D amended Amendment 26 to Schedule 13D filed on March 22, 2025. Amendment 26 to Schedule 13D amended Amendment 25 to Schedule 13D filed on March 5, 2025. Amendment 25 to Schedule 13D amended Amendment 24 to Schedule 13D filed on January 23, 2024. Amendment 24 to Schedule 13D amended Amendment 23 to Schedule 13D filed on December 18, 2023. Amendment 23 to Schedule 13D amended Amendment 22 to Schedule 13D filed on June 22, 2023. Amendment 22 to Schedule 13D amended Amendment 21 to Schedule 13D filed on May 22, 2023. Amendment 21 to Schedule 13D amended Amendment 20 to Schedule 13D filed on April 13, 2023. Amendment 20 to Schedule 13D amended Amendment 19 to Schedule 13D filed on December 21, 2022. Amendment 19 to Schedule 13D amended Amendment 18 to Schedule 13D filed on January 13, 2022. Amendment 18 to Schedule 13D amended Amendment 17 to Schedule 13D filed on April 8, 2021. Amendment 17 to Schedule 13D amended Amendment 16 to Schedule 13D filed on March 19, 2021. Amendment 16 to Schedule 13D amended Amendment 15 to Schedule 13D filed on June 24, 2020. Amendment 15 to Schedule 13D amended Amendment 14 to Schedule 13D filed on April 20, 2020. Amendment 14 to Schedule 13D amended Amendment 13 to Schedule 13D filed on February 7, 2020. Amendment 13 to Schedule 13D amended Amendment 12 to Schedule 13D filed on January 17, 2020. Amendment 12 to Schedule 13D amended Amendment 11 to Schedule 13D filed on January 10, 2020. Amendment 11 to Schedule 13D amended Amendment 10 to Schedule 13D filed on December 18, 2019. Amendment 10 amended Amendment 9 to Schedule 13D filed on September 30, 2019. Amendment 9 amended Amendment 8 to Schedule 13D filed on May 9, 2019. Amendment 8 amended Amendment 7 to Schedule 13D filed on April 4, 2019. Amendment 7 amended Amendment 6 to Schedule 13D filed on January 2, 2019. Amendment 6 amended Amendment 5 to Schedule 13D filed on September 11, 2018 ("Amendment 5").  Amendment 5 amended the amended and restated Schedule 13D filed on April 25, 2018 as Amendment 4 (the "Amended and Restated Schedule 13D"), by Kennedy Cabot Acquisition, LLC, a Nevada limited liability company ("KCA"), Gloria E. Gebbia, the Managing Member of KCA, Richard Gebbia, and John M. Gebbia. The Amended and Restated Schedule 13D was filed to amend and restate the Schedule 13D filed on December 21, 2016 (the "Original Schedule 13D"), as amended and supplemented by Amendment 1 filed on January 11, 2018, Amendment 2 filed on January 26, 2018, and Amendment 3 filed on February 26, 2018.
+
+This Amendment is being filed by the Reporting Persons relating to the common stock, par value $0.01 per share (the "Common Stock"), of Siebert Financial Corp., a New York corporation (the "Issuer"), whose principal executive officers are located at 653 Collins Avenue, Miami Beach, FL 33139.
+
+The Reporting Persons are filing this Amendment to report the transfer of shares of Issuer common stock from Gloria E. Gebbia to the Gebbia Living Trust and a transfer of shares of Issuer common stock from John M. Gebbia, Richard Gebbia, and David Gebbia to a company owned and controlled by various family members.
+
+This Amendment does not restate disclosures in the Amended and Restated Schedule 13D that are not being amended, and should be read in conjunction with the Amended and Restated Schedule 13D. Except as set forth herein, the Amended and Restated Schedule 13D is unmodified. All capitalized terms used herein which are not defined herein have the meanings given to such terms in the Amended and Restated Schedule 13D.</commentText>
+      </item1>
+      <item5>
+        <percentageOfClassSecurities>Item 5 of Amendment 26 is hereby amended and restated as follows:
+
+As of the date hereof:
+
+i. Gloria E. Gebbia does not directly own any shares of Issuer Common Stock, however she may be deemed to have indirect beneficial ownership of a total of 9,697,714 owned by the Gebbia Living Trust.
+
+ii. John M. Gebbia is the direct beneficial owner of 1,924,891 shares of Issuer Common Stock, representing approximately 5% of the outstanding Common Stock of the Issuer, and he may be deemed to share indirect beneficial ownership of a total of 490,000 additional shares, owned by certain family members and a company owned by various family members.
+
+iii. Richard Gebbia is the direct beneficial owner of 3,078,127 shares of Issuer Common Stock, representing approximately 8% of the outstanding Common Stock of the Issuer, and he may be deemed to share indirect beneficial ownership of a total of 561,273 additional shares, owned by certain family members and a company owned by various family members.
+
+iv. David Gebbia is the direct beneficial owner of 1,415,318 shares of Issuer Common Stock, representing approximately 4% of outstanding Common Stock of the Issuer, and he may be deemed to share indirect beneficial ownership of a total of 374,000 additional shares, owned by certain family members and a company owned by various family members.
+
+v. The Gebbia  Living Trust beneficially owns 9,697,714 shares of Issuer Common Stock, representing approximately 24% of outstanding Common Stock of the Issuer. The Gebbia Living Trust is jointly owned by John J. Gebbia and Gloria E. Gebbia.
+
+vi. John J. Gebbia does not directly own any shares of Issuer Common Stock, however he may be deemed to have indirect beneficial ownership of a total of 9,697,714 owned by the Gebbia Living Trust.
+
+Each of Gloria E. Gebbia, John M. Gebbia, Richard Gebbia, David Gebbia, John J. Gebbia and the Gebbia Living Trust as a member of the "group" with the other Reporting Persons for the purposes of Section 13(d)(3) of the Securities Exchange Act of 1934, as amended, may be deemed to own beneficially of the shares of Common Stock directly or beneficially owned by the other Reporting Persons, which is, in the aggregate, 16,941,323 shares. Each of the Reporting Persons disclaims the beneficial ownership of such shares of Common Stock except to the extent of his or its pecuniary interest therein.
+
+The percentage calculations in Item 5(a) are based on 40,419,936 shares outstanding of Common Stock as of June 12, 2025.</percentageOfClassSecurities>
+        <numberOfShares>The information contained in rows 7, 8, 9 and 10 on each of the cover pages of this Amendment is incorporated by reference in its entirety into this Item 5(b).</numberOfShares>
+        <transactionDesc>Except as otherwise described in this Amendment, the Reporting Persons have not effected any transactions in the Common Stock or other equity security of the Issuer during the last 60 days</transactionDesc>
+      </item5>
+      <item6>
+        <contractDescription>Except for the Amended and Restated Joint Filing and Group Agreement, which is incorporated into this Item 6 by reference, and as otherwise set forth in this Schedule 13D, to the best knowledge of the Reporting Persons, there are no other contracts, arrangements, understandings or relationships (legal or otherwise) between the persons named in Item 2 and any person with respect to any securities of the Issuer, including but not limited to: transfer or voting of any of the securities of the Issuer or of its subsidiaries, joint ventures, loan or option arrangements, puts or calls, guarantees of profits, division of profits or loss, or the giving or withholding of proxies or a pledge or contingency the occurrence of which would give another person voting power over the securities of the Issuer.</contractDescription>
+      </item6>
+      <item7>
+        <filedExhibits>Exhibit 99.1: Amended and Restated Joint Filing and Group Agreement, Amended on January 10, 2022</filedExhibits>
+      </item7>
+    </items1To7>
+    <signatureInfo>
+      <signaturePerson>
+        <signatureReportingPerson>Gloria E. Gebbia</signatureReportingPerson>
+        <signatureDetails>
+          <signature>/s/ Gloria E. Gebbia</signature>
+          <title>Gloria E. Gebbia</title>
+          <date>06/12/2025</date>
+        </signatureDetails>
+      </signaturePerson>
+      <signaturePerson>
+        <signatureReportingPerson>John M. Gebbia</signatureReportingPerson>
+        <signatureDetails>
+          <signature>/s/ John M. Gebbia</signature>
+          <title>John M. Gebbia</title>
+          <date>06/12/2025</date>
+        </signatureDetails>
+      </signaturePerson>
+      <signaturePerson>
+        <signatureReportingPerson>Richard Gebbia</signatureReportingPerson>
+        <signatureDetails>
+          <signature>/s/ Richard Gebbia</signature>
+          <title>Richard Gebbia</title>
+          <date>06/12/2025</date>
+        </signatureDetails>
+      </signaturePerson>
+      <signaturePerson>
+        <signatureReportingPerson>David Gebbia</signatureReportingPerson>
+        <signatureDetails>
+          <signature>/s/ David Gebbia</signature>
+          <title>David Gebbia</title>
+          <date>06/12/2025</date>
+        </signatureDetails>
+      </signaturePerson>
+      <signaturePerson>
+        <signatureReportingPerson>John J &amp; Gloria E Gebbia TTEESS UAD 12/8/94 "Gebbia Living Trust"</signatureReportingPerson>
+        <signatureDetails>
+          <signature>/s/ Gloria E. Gebbia</signature>
+          <title>Gloria E. Gebbia/Co-Trustee</title>
+          <date>06/12/2025</date>
+        </signatureDetails>
+      </signaturePerson>
+      <signaturePerson>
+        <signatureReportingPerson>John J. Gebbia</signatureReportingPerson>
+        <signatureDetails>
+          <signature>John J. Gebbia</signature>
+          <title>John J. Gebbia/Co-Trustee</title>
+          <date>06/12/2025</date>
+        </signatureDetails>
+      </signaturePerson>
+    </signatureInfo>
+  </formData>
+</edgarSubmission>
