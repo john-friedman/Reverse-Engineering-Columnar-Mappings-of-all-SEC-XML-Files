@@ -1,0 +1,23 @@
+{
+    "effective_data": {
+        "anchor": "effectiveData",
+        "columns": {
+            "entity_name":                  "filer/entityName",
+            "file_number":                  "filer/fileNumber",
+            "cik":                          "filer/cik",
+            "form":                         "form",
+            "final_effectiveness_date":     "finalEffectivenessDispDate",
+            "final_effectiveness_time":     "finalEffectivenessDispTime"
+        }
+    },
+
+    "submission": {
+        "anchor": "edgarSubmission",
+        "columns": {
+            "submission_type":  "submissionType",
+            "act":              "act",
+            "test_or_live":     "testOrLive",
+            "schema_version":   "schemaVersion"
+        }
+    }
+}

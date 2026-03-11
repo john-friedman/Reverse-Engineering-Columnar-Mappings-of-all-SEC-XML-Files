@@ -1,5 +1,5 @@
+import io
 import warnings
-from mappings.mappings import SCHEDULE_13D
 import xml.etree.ElementTree as ET
 
 
@@ -57,9 +57,12 @@ def _leaf_paths(node, prefix=""):
     return leaves
 
 
-def parse(xml_path, mapping):
-    tree = ET.parse(xml_path)
-    root = tree.getroot()
+def _parse_root(xml_bytes: bytes) -> ET.Element:
+    return ET.parse(io.BytesIO(xml_bytes)).getroot()
+
+
+def parse(xml_bytes: bytes, mapping):
+    root = _parse_root(xml_bytes)
     results = {}
 
     for table_name, table_def in mapping.items():
@@ -90,9 +93,8 @@ def parse(xml_path, mapping):
     return results
 
 
-def audit(xml_path, mapping):
-    tree = ET.parse(xml_path)
-    root = tree.getroot()
+def audit(xml_bytes: bytes, mapping):
+    root = _parse_root(xml_bytes)
 
     for table_name, table_def in mapping.items():
         anchor_path      = table_def["anchor"]
@@ -138,9 +140,3 @@ def print_tables(tables):
                 print(f"  -- row {i+1} --")
             for col, val in row.items():
                 print(f"  {col:<30} {val}")
-
-
-if __name__ == "__main__":
-    xml_file = "data/schedule13d.xml"
-    tables = parse(xml_file, SCHEDULE_13D)
-    audit(xml_file, SCHEDULE_13D)

@@ -1,6 +1,4 @@
-
-
-SCHEDULE_13D = {
+{
     "header": {
         "anchor": "headerData",
         "columns": {
@@ -8,7 +6,7 @@ SCHEDULE_13D = {
             "live_test_flag":            "filerInfo/liveTestFlag",
             "previous_accession_number": "previousAccessionNumber",
             "cik":                       "filerInfo/filer/filerCredentials/cik",
-            "ccc":                       "filerInfo/filer/filerCredentials/ccc",
+            "ccc":                       "filerInfo/filer/filerCredentials/ccc"
         }
     },
 
@@ -33,7 +31,7 @@ SCHEDULE_13D = {
             "auth_person_street2":       "authorizedPersons/notificationInfo/personAddress/street2",
             "auth_person_city":          "authorizedPersons/notificationInfo/personAddress/city",
             "auth_person_state_country": "authorizedPersons/notificationInfo/personAddress/stateOrCountry",
-            "auth_person_zip":           "authorizedPersons/notificationInfo/personAddress/zipCode",
+            "auth_person_zip":           "authorizedPersons/notificationInfo/personAddress/zipCode"
         }
     },
 
@@ -55,7 +53,7 @@ SCHEDULE_13D = {
             "percent_of_class":     "percentOfClass",
             "exclude_shares_flag":  "isAggregateExcludeShares",
             "legal_proceedings":    "legalProceedings",
-            "comment":              "commentContent",
+            "comment":              "commentContent"
         }
     },
 
@@ -69,7 +67,7 @@ SCHEDULE_13D = {
             "street2":              "issuerPrincipalAddress/street2",
             "city":                 "issuerPrincipalAddress/city",
             "state_or_country":     "issuerPrincipalAddress/stateOrCountry",
-            "zip":                  "issuerPrincipalAddress/zipCode",
+            "zip":                  "issuerPrincipalAddress/zipCode"
         }
     },
 
@@ -81,21 +79,21 @@ SCHEDULE_13D = {
             "principal_business_addr":  "principalBusinessAddress",
             "citizenship":              "citizenship",
             "has_been_convicted":       "hasBeenConvicted",
-            "conviction_description":   "convictionDescription",
+            "conviction_description":   "convictionDescription"
         }
     },
 
     "item3_funds": {
         "anchor": "formData/items1To7/item3",
         "columns": {
-            "funds_source": "fundsSource",
+            "funds_source": "fundsSource"
         }
     },
 
     "item4_purpose": {
         "anchor": "formData/items1To7/item4",
         "columns": {
-            "transaction_purpose": "transactionPurpose",
+            "transaction_purpose": "transactionPurpose"
         }
     },
 
@@ -106,21 +104,21 @@ SCHEDULE_13D = {
             "transaction_desc":     "transactionDesc",
             "pct_class":            "percentageOfClassSecurities",
             "date_5pct_ownership":  "date5PercentOwnership",
-            "list_of_shareholders": "listOfShareholders",
+            "list_of_shareholders": "listOfShareholders"
         }
     },
 
     "item6_contracts": {
         "anchor": "formData/items1To7/item6",
         "columns": {
-            "contract_description": "contractDescription",
+            "contract_description": "contractDescription"
         }
     },
 
     "item7_exhibits": {
         "anchor": "formData/items1To7/item7",
         "columns": {
-            "filed_exhibits": "filedExhibits",
+            "filed_exhibits": "filedExhibits"
         }
     },
 
@@ -131,31 +129,7 @@ SCHEDULE_13D = {
             "signature":         "signaturePerson/signatureDetails/signature",
             "title":             "signaturePerson/signatureDetails/title",
             "date":              "signaturePerson/signatureDetails/date",
-            "comment":           "commentText",
+            "comment":           "commentText"
         }
-    },
-}
-
-QUALIF = {
-    "effective_data": {
-        "anchor": "effectiveData",
-        "columns": {
-            "entity_name":                  "filer/entityName",
-            "file_number":                  "filer/fileNumber",
-            "cik":                          "filer/cik",
-            "form":                         "form",
-            "final_effectiveness_date":     "finalEffectivenessDispDate",
-            "final_effectiveness_time":     "finalEffectivenessDispTime",
-        }
-    },
-
-    "submission": {
-        "anchor": "edgarSubmission",
-        "columns": {
-            "submission_type":  "submissionType",
-            "act":              "act",
-            "test_or_live":     "testOrLive",
-            "schema_version":   "schemaVersion",
-        }
-    },
+    }
 }
