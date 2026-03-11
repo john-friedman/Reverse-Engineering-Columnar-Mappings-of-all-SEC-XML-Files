@@ -1,0 +1,146 @@
+{
+    "submission": {
+        "anchor": "edgarSubmission",
+        "columns": {
+            "submission_type":  "submissionType",
+            "schema_version":   "schemaVersion",
+            "test_or_live":     "testOrLive"
+        }
+    },
+
+    "primary_issuer": {
+        "anchor": "primaryIssuer",
+        "columns": {
+            "cik":                           "cik",
+            "entity_name":                   "entityName",
+            "entity_type":                   "entityType",
+            "entity_type_other_desc":        "entityTypeOtherDesc",
+            "jurisdiction_of_inc":           "jurisdictionOfInc",
+            "issuer_phone_number":           "issuerPhoneNumber",
+            "year_of_inc_value":             "yearOfInc/value",
+            "year_of_inc_within_five_years": "yearOfInc/withinFiveYears",
+            "year_of_inc_over_five_years":   "yearOfInc/overFiveYears",
+            "year_of_inc_yet_to_be_formed":  "yearOfInc/yetToBeFormed",
+            "street1":                       "issuerAddress/street1",
+            "street2":                       "issuerAddress/street2",
+            "city":                          "issuerAddress/city",
+            "state_or_country":              "issuerAddress/stateOrCountry",
+            "state_or_country_description":  "issuerAddress/stateOrCountryDescription",
+            "zip":                           "issuerAddress/zipCode"
+        }
+    },
+
+    "issuer_list": {
+        "anchor": "issuerList/issuer",
+        "columns": {
+            "cik":                           "cik",
+            "entity_name":                   "entityName",
+            "entity_type":                   "entityType",
+            "entity_type_other_desc":        "entityTypeOtherDesc",
+            "jurisdiction_of_inc":           "jurisdictionOfInc",
+            "issuer_phone_number":           "issuerPhoneNumber",
+            "year_of_inc_value":             "yearOfInc/value",
+            "year_of_inc_within_five_years": "yearOfInc/withinFiveYears",
+            "year_of_inc_over_five_years":   "yearOfInc/overFiveYears",
+            "year_of_inc_yet_to_be_formed":  "yearOfInc/yetToBeFormed",
+            "street1":                       "issuerAddress/street1",
+            "street2":                       "issuerAddress/street2",
+            "city":                          "issuerAddress/city",
+            "state_or_country":              "issuerAddress/stateOrCountry",
+            "state_or_country_description":  "issuerAddress/stateOrCountryDescription",
+            "zip":                           "issuerAddress/zipCode"
+        }
+    },
+
+    "related_persons": {
+        "anchor": "relatedPersonsList/relatedPersonInfo",
+        "columns": {
+            "first_name":                   "relatedPersonName/firstName",
+            "middle_name":                  "relatedPersonName/middleName",
+            "last_name":                    "relatedPersonName/lastName",
+            "street1":                      "relatedPersonAddress/street1",
+            "street2":                      "relatedPersonAddress/street2",
+            "city":                         "relatedPersonAddress/city",
+            "state_or_country":             "relatedPersonAddress/stateOrCountry",
+            "state_or_country_description": "relatedPersonAddress/stateOrCountryDescription",
+            "zip":                          "relatedPersonAddress/zipCode",
+            "relationship":                 "relatedPersonRelationshipList/relationship",
+            "relationship_clarification":   "relationshipClarification"
+        }
+    },
+
+    "offering_data": {
+        "anchor": "offeringData",
+        "columns": {
+            "industry_group_type":               "industryGroup/industryGroupType",
+            "investment_fund_type":              "industryGroup/investmentFundInfo/investmentFundType",
+            "is_40_act":                         "industryGroup/investmentFundInfo/is40Act",
+            "revenue_range":                     "issuerSize/revenueRange",
+            "aggregate_net_asset_value_range":   "issuerSize/aggregateNetAssetValueRange",
+            "federal_exemptions_item":           "federalExemptionsExclusions/item",
+            "is_amendment":                      "typeOfFiling/newOrAmendment/isAmendment",
+            "previous_accession_number":         "typeOfFiling/newOrAmendment/previousAccessionNumber",
+            "date_of_first_sale_value":          "typeOfFiling/dateOfFirstSale/value",
+            "date_of_first_sale_yet_to_occur":   "typeOfFiling/dateOfFirstSale/yetToOccur",
+            "duration_more_than_one_year":       "durationOfOffering/moreThanOneYear",
+            "is_equity_type":                    "typesOfSecuritiesOffered/isEquityType",
+            "is_debt_type":                      "typesOfSecuritiesOffered/isDebtType",
+            "is_option_to_acquire_type":         "typesOfSecuritiesOffered/isOptionToAcquireType",
+            "is_security_to_be_acquired_type":   "typesOfSecuritiesOffered/isSecurityToBeAcquiredType",
+            "is_pooled_investment_fund_type":    "typesOfSecuritiesOffered/isPooledInvestmentFundType",
+            "is_tenant_in_common_type":          "typesOfSecuritiesOffered/isTenantInCommonType",
+            "is_mineral_property_type":          "typesOfSecuritiesOffered/isMineralPropertyType",
+            "is_other_type":                     "typesOfSecuritiesOffered/isOtherType",
+            "description_of_other_type":         "typesOfSecuritiesOffered/descriptionOfOtherType",
+            "business_combination_transaction":  "businessCombinationTransaction/isBusinessCombinationTransaction",
+            "business_combination_clarification":"businessCombinationTransaction/clarificationOfResponse",
+            "minimum_investment_accepted":       "minimumInvestmentAccepted",
+            "sales_commissions_dollar":          "salesCommissionsFindersFees/salesCommissions/dollarAmount",
+            "sales_commissions_is_estimate":     "salesCommissionsFindersFees/salesCommissions/isEstimate",
+            "finders_fees_dollar":               "salesCommissionsFindersFees/findersFees/dollarAmount",
+            "finders_fees_is_estimate":          "salesCommissionsFindersFees/findersFees/isEstimate",
+            "sales_commissions_clarification":   "salesCommissionsFindersFees/clarificationOfResponse",
+            "use_of_proceeds_dollar":            "useOfProceeds/grossProceedsUsed/dollarAmount",
+            "use_of_proceeds_is_estimate":       "useOfProceeds/grossProceedsUsed/isEstimate",
+            "use_of_proceeds_clarification":     "useOfProceeds/clarificationOfResponse",
+            "total_offering_amount":             "offeringSalesAmounts/totalOfferingAmount",
+            "total_amount_sold":                 "offeringSalesAmounts/totalAmountSold",
+            "total_remaining":                   "offeringSalesAmounts/totalRemaining",
+            "offering_amounts_clarification":    "offeringSalesAmounts/clarificationOfResponse",
+            "has_non_accredited_investors":      "investors/hasNonAccreditedInvestors",
+            "number_non_accredited_investors":   "investors/numberNonAccreditedInvestors",
+            "total_number_already_invested":     "investors/totalNumberAlreadyInvested"
+        }
+    },
+
+    "sales_compensation": {
+        "anchor": "offeringData/salesCompensationList/recipient",
+        "columns": {
+            "recipient_name":                    "recipientName",
+            "recipient_crd_number":              "recipientCRDNumber",
+            "associated_bd_name":                "associatedBDName",
+            "associated_bd_crd_number":          "associatedBDCRDNumber",
+            "street1":                           "recipientAddress/street1",
+            "street2":                           "recipientAddress/street2",
+            "city":                              "recipientAddress/city",
+            "state_or_country":                  "recipientAddress/stateOrCountry",
+            "state_or_country_description":      "recipientAddress/stateOrCountryDescription",
+            "zip":                               "recipientAddress/zipCode",
+            "foreign_solicitation":              "foreignSolicitation",
+            "states_of_solicitation_state":      "statesOfSolicitationList/state",
+            "states_of_solicitation_value":      "statesOfSolicitationList/value",
+            "states_of_solicitation_description":"statesOfSolicitationList/description"
+        }
+    },
+
+    "signature": {
+        "anchor": "offeringData/signatureBlock/signature",
+        "columns": {
+            "issuer_name":      "issuerName",
+            "name_of_signer":   "nameOfSigner",
+            "signature_name":   "signatureName",
+            "signature_title":  "signatureTitle",
+            "signature_date":   "signatureDate"
+        }
+    }
+}
