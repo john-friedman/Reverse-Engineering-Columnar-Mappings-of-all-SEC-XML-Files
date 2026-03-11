@@ -1,0 +1,1222 @@
+{
+    "formdata": {
+        "anchor": "formData",
+        "columns": {
+            "applicant_crd_num": "applicantCrdNum",
+            "has_more_than_one_advisory_firms": "hasMoreThanOneAdvisoryFirms",
+            "is_amendment": "isAmendment",
+            "is_engaged_in_other_business": "isEngagedInOtherBusiness",
+            "is_individual": "isIndividual",
+            "no_of_advisory_firms": "noOfAdvisoryFirms",
+            "residential_history": "residentialHistory"
+        }
+    },
+    "formdata_applicantname": {
+        "anchor": "formData/applicantName",
+        "columns": {
+            "first_name": "firstName",
+            "last_name": "lastName",
+            "middle_name": "middleName",
+            "suffix": "suffix"
+        }
+    },
+    "formdata_disclosurequestions_civildisclosure": {
+        "anchor": "formData/disclosureQuestions/civilDisclosure",
+        "columns": {
+            "is_dismissed": "isDismissed",
+            "is_enjoined": "isEnjoined",
+            "is_found_in_violation_of_regulation": "isFoundInViolationOfRegulation",
+            "is_named_in_civil_proceeding": "isNamedInCivilProceeding"
+        }
+    },
+    "formdata_disclosurequestions_complaintdisclosure": {
+        "anchor": "formData/disclosureQuestions/complaintDisclosure",
+        "columns": {
+            "is_complaint_pending": "isComplaintPending",
+            "is_complaint_settled": "isComplaintSettled",
+            "is_fraud_case_pending": "isFraudCasePending",
+            "is_fraud_case_resulted_award": "isFraudCaseResultedAward",
+            "is_fraud_case_settled": "isFraudCaseSettled"
+        }
+    },
+    "formdata_disclosurequestions_criminaldisclosure": {
+        "anchor": "formData/disclosureQuestions/criminalDisclosure",
+        "columns": {
+            "is_charged_with_misdemeanor": "isChargedWithMisdemeanor",
+            "is_convicted_of_misdemeanor": "isConvictedOfMisdemeanor",
+            "is_org_charged_with_misdemeanor": "isOrgChargedWithMisdemeanor",
+            "is_org_convicted_of_misdemeanor": "isOrgConvictedOfMisdemeanor"
+        }
+    },
+    "formdata_disclosurequestions_criminaldisclosure_criminaldisclosurecommonquestion": {
+        "anchor": "formData/disclosureQuestions/criminalDisclosure/criminalDisclosureCommonQuestion",
+        "columns": {
+            "is_charged_with_felony": "isChargedWithFelony",
+            "is_convicted_of_felony": "isConvictedOfFelony",
+            "is_org_charged_with_felony": "isOrgChargedWithFelony",
+            "is_org_convicted_of_felony": "isOrgConvictedOfFelony"
+        }
+    },
+    "formdata_disclosurequestions_financialdisclosure": {
+        "anchor": "formData/disclosureQuestions/financialDisclosure",
+        "columns": {
+            "is_bankruptcy_petition": "isBankruptcyPetition",
+            "is_bond_revoked": "isBondRevoked",
+            "is_compromised": "isCompromised",
+            "is_trustee_apointed": "isTrusteeApointed"
+        }
+    },
+    "formdata_disclosurequestions_investigationdisclosure": {
+        "anchor": "formData/disclosureQuestions/investigationDisclosure",
+        "columns": {
+            "is_investigated": "isInvestigated"
+        }
+    },
+    "formdata_disclosurequestions_judgmentliendisclosure": {
+        "anchor": "formData/disclosureQuestions/judgmentLienDisclosure",
+        "columns": {
+            "is_lien_against": "isLienAgainst"
+        }
+    },
+    "formdata_disclosurequestions_regulatorydisclosure": {
+        "anchor": "formData/disclosureQuestions/regulatoryDisclosure",
+        "columns": {
+            "is_association_bared": "isAssociationBared",
+            "is_failed_resonably": "isFailedResonably",
+            "is_failed_to_supervise": "isFailedToSupervise",
+            "is_final_order": "isFinalOrder",
+            "is_found_will_fully_aided": "isFoundWillFullyAided",
+            "is_violated_security_act": "isViolatedSecurityAct",
+            "is_will_fully_aided": "isWillFullyAided",
+            "is_will_fully_violated_security_act": "isWillFullyViolatedSecurityAct"
+        }
+    },
+    "formdata_disclosurequestions_regulatorydisclosure_regulatorydisclosurecommonquestion": {
+        "anchor": "formData/disclosureQuestions/regulatoryDisclosure/regulatoryDisclosureCommonQuestion",
+        "columns": {
+            "is_authorized_to_act_attorney": "isAuthorizedToActAttorney",
+            "is_cause_of_denial": "isCauseOfDenial",
+            "is_denied_license": "isDeniedLicense",
+            "is_discipliend": "isDiscipliend",
+            "is_found_in_cause_of_denial": "isFoundInCauseOfDenial",
+            "is_found_in_cause_of_suspension": "isFoundInCauseOfSuspension",
+            "is_found_in_violation_of_regulation": "isFoundInViolationOfRegulation",
+            "is_found_in_violation_of_rules": "isFoundInViolationOfRules",
+            "is_found_made_false_statement": "isFoundMadeFalseStatement",
+            "is_imposed_penalty": "isImposedPenalty",
+            "is_made_false_statement": "isMadeFalseStatement",
+            "is_order_against": "isOrderAgainst",
+            "is_order_against_activity": "isOrderAgainstActivity",
+            "is_regulatory_complaint": "isRegulatoryComplaint",
+            "is_un_ethical": "isUnEthical",
+            "is_violated_regulation": "isViolatedRegulation"
+        }
+    },
+    "formdata_disclosurequestions_terminationdisclosure": {
+        "anchor": "formData/disclosureQuestions/terminationDisclosure",
+        "columns": {
+            "is_failed_to_supervise": "isFailedToSupervise",
+            "is_involved_in_fraud": "isInvolvedInFraud",
+            "is_viloated_industry_standard": "isViloatedIndustryStandard"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp",
+        "columns": {
+            "civil_judicial_questions": "civilJudicialQuestions"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_baseheader": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/baseHeader",
+        "columns": {
+            "summary": "summary"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_baseheader_filinginfo_formadvbdfiling": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/baseHeader/filingInfo/formADVBDFiling",
+        "columns": {
+            "crd_number": "crdNumber",
+            "disclosure_number": "disclosureNumber",
+            "filing_name": "filingName"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_baseheader_filinginfo_maifiling": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/baseHeader/filingInfo/maiFiling",
+        "columns": {
+            "accession_number": "accessionNumber",
+            "filing_date": "filingDate",
+            "filing_name": "filingName",
+            "registration_number": "registrationNumber"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_baseheader_reponsetype": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/baseHeader/reponseType",
+        "columns": {
+            "add": "add"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_baseheader_status": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/baseHeader/status",
+        "columns": {
+            "final": "final",
+            "pending": "pending"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_civiljudicialinfo_courtinformation": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/civilJudicialInfo/courtInformation",
+        "columns": {
+            "docket_case_name": "docketCaseName"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_civiljudicialinfo_courtinformation_courtinfo": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/civilJudicialInfo/courtInformation/courtInfo",
+        "columns": {
+            "docket_or_case_no": "docketOrCaseNo",
+            "name": "name"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_civiljudicialinfo_courtinformation_courtinfo_address": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/civilJudicialInfo/courtInformation/courtInfo/address",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_civiljudicialinfo_matterinformation": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/civilJudicialInfo/matterInformation",
+        "columns": {
+            "allegations_description": "allegationsDescription",
+            "other_product_types": "otherProductTypes"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_civiljudicialinfo_matterinformation_employingfirminfo": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/civilJudicialInfo/matterInformation/employingFirmInfo",
+        "columns": {
+            "name": "name",
+            "registration_number": "registrationNumber"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_civiljudicialinfo_matterinformation_principalproducttypes": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/civilJudicialInfo/matterInformation/principalProductTypes",
+        "columns": {
+            "product": "product"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_civiljudicialinfo_pendinginformation_limitationsrestrictions": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/civilJudicialInfo/pendingInformation/limitationsRestrictions",
+        "columns": {
+            "details": "details",
+            "has_limitations_or_restrictions": "hasLimitationsOrRestrictions"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_civiljudicialinfo_pendinginformation_servedinformation": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/civilJudicialInfo/pendingInformation/servedInformation",
+        "columns": {
+            "date": "date",
+            "exact": "exact"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_civiljudicialinfo_sanctiondetails": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/civilJudicialInfo/sanctionDetails",
+        "columns": {
+            "monetary_sanctions": "monetarySanctions"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_courtinfo": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/courtInfo",
+        "columns": {
+            "court": "court"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_defendantinformation": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/defendantInformation",
+        "columns": {
+            "defendant_name": "defendantName",
+            "is_adefendant": "isADefendant"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_filingdatecourtaction": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/filingDateCourtAction",
+        "columns": {
+            "date": "date",
+            "exact": "exact"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_initiatedby": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/initiatedBy",
+        "columns": {
+            "initiator": "initiator"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_notificationservedinformation": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/notificationServedInformation",
+        "columns": {
+            "date": "date",
+            "exact": "exact"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_notificationservedinformation_explanationinfo": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/notificationServedInformation/explanationInfo",
+        "columns": {
+            "explanation": "explanation",
+            "provide_explanation": "provideExplanation"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_plantiffsinformation": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/plantiffsInformation",
+        "columns": {
+            "is_plantiffs_identified": "isPlantiffsIdentified",
+            "plantiff_name": "plantiffName"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_resolutioninfo": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/resolutionInfo",
+        "columns": {
+            "explanantion": "explanantion",
+            "resolution_types": "resolutionTypes"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_resolutioninfo_resolutiondate": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/resolutionInfo/resolutionDate",
+        "columns": {
+            "date": "date",
+            "exact": "exact"
+        }
+    },
+    "formdata_drpinfo_civiljudicialdisclosure_civiljudicialdrp_drpdata_sactionsreliefsought": {
+        "anchor": "formData/drpInfo/civilJudicialDisclosure/civilJudicialDrp/drpData/sactionsReliefSought",
+        "columns": {
+            "other": "other",
+            "sanction_relief": "sanctionRelief"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp",
+        "columns": {
+            "criminal_questions": "criminalQuestions"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_baseheader": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/baseHeader",
+        "columns": {
+            "summary": "summary"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_baseheader_filinginfo_formadvbdfiling": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/baseHeader/filingInfo/formADVBDFiling",
+        "columns": {
+            "crd_number": "crdNumber",
+            "disclosure_number": "disclosureNumber",
+            "filing_name": "filingName"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_baseheader_filinginfo_maifiling": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/baseHeader/filingInfo/maiFiling",
+        "columns": {
+            "accession_number": "accessionNumber",
+            "filing_date": "filingDate",
+            "filing_name": "filingName",
+            "registration_number": "registrationNumber"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_baseheader_reponsetype": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/baseHeader/reponseType",
+        "columns": {
+            "add": "add"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_baseheader_status": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/baseHeader/status",
+        "columns": {
+            "final": "final"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_appealinformation": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/appealInformation",
+        "columns": {
+            "is_felony_charge": "isFelonyCharge"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_appealinformation_dispositiondetails_dispositiondetail": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/appealInformation/dispositionDetails/dispositionDetail",
+        "columns": {
+            "date": "date",
+            "sentence_penalty_type": "sentencePenaltyType"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_appealinformation_dispositiondetails_dispositiondetail_dispositiontype": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/appealInformation/dispositionDetails/dispositionDetail/dispositionType",
+        "columns": {
+            "explanation": "explanation",
+            "type": "type"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_appealinformation_dispositiondetails_dispositiondetail_incarcerationinfo_duration": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/appealInformation/dispositionDetails/dispositionDetail/incarcerationInfo/duration",
+        "columns": {
+            "days": "days"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_appealinformation_dispositiondetails_dispositiondetail_incarcerationinfo_enddate": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/appealInformation/dispositionDetails/dispositionDetail/incarcerationInfo/endDate",
+        "columns": {
+            "date": "date"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_appealinformation_dispositiondetails_dispositiondetail_incarcerationinfo_startdate": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/appealInformation/dispositionDetails/dispositionDetail/incarcerationInfo/startDate",
+        "columns": {
+            "date": "date"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_appealinformation_dispositiondetails_dispositiondetail_monetarypenalty": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/appealInformation/dispositionDetails/dispositionDetail/monetaryPenalty",
+        "columns": {
+            "final_amount": "finalAmount",
+            "total_fine": "totalFine"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_appealinformation_dispositiondetails_dispositiondetail_monetarypenalty_paidstatus": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/appealInformation/dispositionDetails/dispositionDetail/monetaryPenalty/paidStatus",
+        "columns": {
+            "paid_in_full_date": "paidInFullDate"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_appealinformation_eventstatusdate": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/appealInformation/eventStatusDate",
+        "columns": {
+            "date": "date",
+            "exact": "exact"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_appealinformation_eventstatusdate_explanationinfo": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/appealInformation/eventStatusDate/explanationInfo",
+        "columns": {
+            "explanation": "explanation",
+            "provide_explanation": "provideExplanation"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_eventdisclosuredetail_chargedetails_chargedetail": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/eventDisclosureDetail/chargeDetails/chargeDetail",
+        "columns": {
+            "amended_reduced_date": "amendedReducedDate",
+            "charge": "charge",
+            "number_of_counts": "numberOfCounts",
+            "plea": "plea"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_eventdisclosuredetail_chargedetails_chargedetail_felonyormisdemeanor": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/eventDisclosureDetail/chargeDetails/chargeDetail/felonyOrMisdemeanor",
+        "columns": {
+            "felony": "felony",
+            "misdemeanor": "misdemeanor"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_eventdisclosuredetail_eventdetail": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/eventDisclosureDetail/eventDetail",
+        "columns": {
+            "date": "date",
+            "exact": "exact"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_eventdisclosuredetail_eventdetail_explanationinfo": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/eventDisclosureDetail/eventDetail/explanationInfo",
+        "columns": {
+            "explanation": "explanation",
+            "provide_explanation": "provideExplanation"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_formalcharges": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/formalCharges",
+        "columns": {
+            "other": "other"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_formalcharges_chargesinfo": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/formalCharges/chargesInfo",
+        "columns": {
+            "docket_case_name": "docketCaseName"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_formalcharges_chargesinfo_courtinfo": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/formalCharges/chargesInfo/courtInfo",
+        "columns": {
+            "docket_or_case_no": "docketOrCaseNo",
+            "name": "name"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_formalcharges_chargesinfo_courtinfo_address": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/formalCharges/chargesInfo/courtInfo/address",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_drpinfo_criminaldisclosure_criminaldrp_drpdata_formalcharges_courttype": {
+        "anchor": "formData/drpInfo/criminalDisclosure/criminalDrp/drpData/formalCharges/courtType",
+        "columns": {
+            "is_other": "isOther",
+            "is_state_court": "isStateCourt"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp",
+        "columns": {
+            "customer_complaint_questions": "customerComplaintQuestions"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_baseheader": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/baseHeader",
+        "columns": {
+            "summary": "summary"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_baseheader_filinginfo_formadvbdfiling": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/baseHeader/filingInfo/formADVBDFiling",
+        "columns": {
+            "crd_number": "crdNumber",
+            "disclosure_number": "disclosureNumber",
+            "filing_name": "filingName"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_baseheader_reponsetype": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/baseHeader/reponseType",
+        "columns": {
+            "add": "add"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_baseheader_status": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/baseHeader/status",
+        "columns": {
+            "final": "final",
+            "pending": "pending"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData",
+        "columns": {
+            "customer_name": "customerName",
+            "customer_residence": "customerResidence"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata_damageinfo": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData/damageInfo",
+        "columns": {
+            "damage_amount": "damageAmount"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata_damageinfo_explanationinfo": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData/damageInfo/explanationInfo",
+        "columns": {
+            "explanation": "explanation",
+            "provide_explanation": "provideExplanation"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata_disclosurestatus_isnamedasparty": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData/disclosureStatus/isNamedAsParty",
+        "columns": {
+            "is_involve_litigation": "isInvolveLitigation"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata_dispositioninfo": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData/dispositionInfo",
+        "columns": {
+            "compensation_detail": "compensationDetail"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata_dispositioninfo_appealinfo_date": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData/dispositionInfo/appealInfo/date",
+        "columns": {
+            "date": "date",
+            "exact": "exact"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata_dispositioninfo_appealinfo_date_explanationinfo": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData/dispositionInfo/appealInfo/date/explanationInfo",
+        "columns": {
+            "explanation": "explanation",
+            "provide_explanation": "provideExplanation"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata_dispositioninfo_appealinfo_detail": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData/dispositionInfo/appealInfo/detail",
+        "columns": {
+            "docket_case_name": "docketCaseName"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata_dispositioninfo_appealinfo_detail_courtinfo": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData/dispositionInfo/appealInfo/detail/courtInfo",
+        "columns": {
+            "docket_or_case_no": "docketOrCaseNo",
+            "name": "name"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata_dispositioninfo_appealinfo_detail_courtinfo_address": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData/dispositionInfo/appealInfo/detail/courtInfo/address",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata_dispositioninfo_courtinfo": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData/dispositionInfo/courtInfo",
+        "columns": {
+            "court": "court"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata_matterinformation": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData/matterInformation",
+        "columns": {
+            "allegations_description": "allegationsDescription"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata_matterinformation_employingfirminfo": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData/matterInformation/employingFirmInfo",
+        "columns": {
+            "name": "name"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata_matterinformation_principalproducttypes": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData/matterInformation/principalProductTypes",
+        "columns": {
+            "product": "product"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata_resolutioninfo_compensationdetail": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData/resolutionInfo/compensationDetail",
+        "columns": {
+            "total_amount": "totalAmount"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata_resolutiontype": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData/resolutionType",
+        "columns": {
+            "disposition_types": "dispositionTypes"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata_resolutiontype_otherinfo": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData/resolutionType/otherInfo",
+        "columns": {
+            "other": "other"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata_resolutiontype_otherinfo_dispositiondate": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData/resolutionType/otherInfo/dispositionDate",
+        "columns": {
+            "date": "date",
+            "exact": "exact"
+        }
+    },
+    "formdata_drpinfo_customercomplaintdisclosure_customercomplaintdrp_drpdata_resolutiontype_otherinfo_dispositiondate_explanationinfo": {
+        "anchor": "formData/drpInfo/customerComplaintDisclosure/customerComplaintDrp/drpData/resolutionType/otherInfo/dispositionDate/explanationInfo",
+        "columns": {
+            "explanation": "explanation",
+            "provide_explanation": "provideExplanation"
+        }
+    },
+    "formdata_drpinfo_investigationdisclosure_investigationdrp": {
+        "anchor": "formData/drpInfo/investigationDisclosure/investigationDrp",
+        "columns": {
+            "investigation_questions": "investigationQuestions"
+        }
+    },
+    "formdata_drpinfo_investigationdisclosure_investigationdrp_baseheader": {
+        "anchor": "formData/drpInfo/investigationDisclosure/investigationDrp/baseHeader",
+        "columns": {
+            "summary": "summary"
+        }
+    },
+    "formdata_drpinfo_investigationdisclosure_investigationdrp_baseheader_filinginfo_formadvbdfiling": {
+        "anchor": "formData/drpInfo/investigationDisclosure/investigationDrp/baseHeader/filingInfo/formADVBDFiling",
+        "columns": {
+            "crd_number": "crdNumber",
+            "disclosure_number": "disclosureNumber",
+            "filing_name": "filingName"
+        }
+    },
+    "formdata_drpinfo_investigationdisclosure_investigationdrp_baseheader_reponsetype": {
+        "anchor": "formData/drpInfo/investigationDisclosure/investigationDrp/baseHeader/reponseType",
+        "columns": {
+            "add": "add"
+        }
+    },
+    "formdata_drpinfo_investigationdisclosure_investigationdrp_drpdata": {
+        "anchor": "formData/drpInfo/investigationDisclosure/investigationDrp/drpData",
+        "columns": {
+            "authority_name": "authorityName",
+            "investigation_nature": "investigationNature"
+        }
+    },
+    "formdata_drpinfo_investigationdisclosure_investigationdrp_drpdata_crimeinvestigationinfo": {
+        "anchor": "formData/drpInfo/investigationDisclosure/investigationDrp/drpData/crimeInvestigationInfo",
+        "columns": {
+            "court": "court"
+        }
+    },
+    "formdata_drpinfo_investigationdisclosure_investigationdrp_drpdata_noticedate": {
+        "anchor": "formData/drpInfo/investigationDisclosure/investigationDrp/drpData/noticeDate",
+        "columns": {
+            "date": "date",
+            "exact": "exact"
+        }
+    },
+    "formdata_drpinfo_investigationdisclosure_investigationdrp_drpdata_producttype": {
+        "anchor": "formData/drpInfo/investigationDisclosure/investigationDrp/drpData/productType",
+        "columns": {
+            "product": "product"
+        }
+    },
+    "formdata_drpinfo_investigationdisclosure_investigationdrp_drpdata_regulatoryinfo_initiator": {
+        "anchor": "formData/drpInfo/investigationDisclosure/investigationDrp/drpData/regulatoryInfo/initiator",
+        "columns": {
+            "sec": "sec"
+        }
+    },
+    "formdata_drpinfo_judgementliendisclosure_judgementliendrp": {
+        "anchor": "formData/drpInfo/judgementLienDisclosure/judgementLienDrp",
+        "columns": {
+            "judgement_questions": "judgementQuestions"
+        }
+    },
+    "formdata_drpinfo_judgementliendisclosure_judgementliendrp_baseheader": {
+        "anchor": "formData/drpInfo/judgementLienDisclosure/judgementLienDrp/baseHeader",
+        "columns": {
+            "summary": "summary"
+        }
+    },
+    "formdata_drpinfo_judgementliendisclosure_judgementliendrp_baseheader_filinginfo_formadvbdfiling": {
+        "anchor": "formData/drpInfo/judgementLienDisclosure/judgementLienDrp/baseHeader/filingInfo/formADVBDFiling",
+        "columns": {
+            "crd_number": "crdNumber",
+            "disclosure_number": "disclosureNumber",
+            "filing_name": "filingName"
+        }
+    },
+    "formdata_drpinfo_judgementliendisclosure_judgementliendrp_baseheader_filinginfo_maifiling": {
+        "anchor": "formData/drpInfo/judgementLienDisclosure/judgementLienDrp/baseHeader/filingInfo/maiFiling",
+        "columns": {
+            "accession_number": "accessionNumber",
+            "filing_date": "filingDate",
+            "filing_name": "filingName",
+            "registration_number": "registrationNumber"
+        }
+    },
+    "formdata_drpinfo_judgementliendisclosure_judgementliendrp_baseheader_reponsetype": {
+        "anchor": "formData/drpInfo/judgementLienDisclosure/judgementLienDrp/baseHeader/reponseType",
+        "columns": {
+            "add": "add"
+        }
+    },
+    "formdata_drpinfo_judgementliendisclosure_judgementliendrp_drpdata": {
+        "anchor": "formData/drpInfo/judgementLienDisclosure/judgementLienDrp/drpData",
+        "columns": {
+            "judegment_or_lien_type": "judegmentOrLienType",
+            "judgement_or_lien_amout": "judgementOrLienAmout",
+            "judgement_or_lien_holder": "judgementOrLienHolder",
+            "matter_resolved": "matterResolved"
+        }
+    },
+    "formdata_drpinfo_judgementliendisclosure_judgementliendrp_drpdata_courtdetail_date": {
+        "anchor": "formData/drpInfo/judgementLienDisclosure/judgementLienDrp/drpData/courtDetail/date",
+        "columns": {
+            "date": "date",
+            "exact": "exact"
+        }
+    },
+    "formdata_drpinfo_judgementliendisclosure_judgementliendrp_drpdata_courtdetail_detail": {
+        "anchor": "formData/drpInfo/judgementLienDisclosure/judgementLienDrp/drpData/courtDetail/detail",
+        "columns": {
+            "docket_case_name": "docketCaseName"
+        }
+    },
+    "formdata_drpinfo_judgementliendisclosure_judgementliendrp_drpdata_courtdetail_detail_courtinfo": {
+        "anchor": "formData/drpInfo/judgementLienDisclosure/judgementLienDrp/drpData/courtDetail/detail/courtInfo",
+        "columns": {
+            "docket_or_case_no": "docketOrCaseNo",
+            "name": "name"
+        }
+    },
+    "formdata_drpinfo_judgementliendisclosure_judgementliendrp_drpdata_courtdetail_detail_courtinfo_address": {
+        "anchor": "formData/drpInfo/judgementLienDisclosure/judgementLienDrp/drpData/courtDetail/detail/courtInfo/address",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_drpinfo_judgementliendisclosure_judgementliendrp_drpdata_courtinfo": {
+        "anchor": "formData/drpInfo/judgementLienDisclosure/judgementLienDrp/drpData/courtInfo",
+        "columns": {
+            "court": "court",
+            "other": "other"
+        }
+    },
+    "formdata_drpinfo_judgementliendisclosure_judgementliendrp_drpdata_datefiled": {
+        "anchor": "formData/drpInfo/judgementLienDisclosure/judgementLienDrp/drpData/dateFiled",
+        "columns": {
+            "date": "date",
+            "exact": "exact"
+        }
+    },
+    "formdata_drpinfo_judgementliendisclosure_judgementliendrp_drpdata_datefiled_explanationinfo": {
+        "anchor": "formData/drpInfo/judgementLienDisclosure/judgementLienDrp/drpData/dateFiled/explanationInfo",
+        "columns": {
+            "explanation": "explanation",
+            "provide_explanation": "provideExplanation"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp",
+        "columns": {
+            "regulatory_questions": "regulatoryQuestions"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_baseheader": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/baseHeader",
+        "columns": {
+            "summary": "summary"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_baseheader_filinginfo_formadvbdfiling": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/baseHeader/filingInfo/formADVBDFiling",
+        "columns": {
+            "crd_number": "crdNumber",
+            "disclosure_number": "disclosureNumber",
+            "filing_name": "filingName"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_baseheader_filinginfo_maifiling": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/baseHeader/filingInfo/maiFiling",
+        "columns": {
+            "accession_number": "accessionNumber",
+            "filing_date": "filingDate",
+            "filing_name": "filingName",
+            "registration_number": "registrationNumber"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_baseheader_reponsetype": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/baseHeader/reponseType",
+        "columns": {
+            "add": "add"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_baseheader_status": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/baseHeader/status",
+        "columns": {
+            "final": "final"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_dateinitiated": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/dateInitiated",
+        "columns": {
+            "date": "date",
+            "exact": "exact"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_dateinitiated_explanationinfo": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/dateInitiated/explanationInfo",
+        "columns": {
+            "explanation": "explanation",
+            "provide_explanation": "provideExplanation"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_initiatedby": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/initiatedBy",
+        "columns": {
+            "name": "name",
+            "other": "other"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_initiatedby_initiator": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/initiatedBy/initiator",
+        "columns": {
+            "other": "other",
+            "sec": "sec",
+            "state": "state"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_regulatoryinfo_appealinformation": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/regulatoryInfo/appealInformation",
+        "columns": {
+            "details": "details"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_regulatoryinfo_matterinformation": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/regulatoryInfo/matterInformation",
+        "columns": {
+            "allegations_description": "allegationsDescription"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_regulatoryinfo_matterinformation_employingfirminfo": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/regulatoryInfo/matterInformation/employingFirmInfo",
+        "columns": {
+            "crd_number": "crdNumber",
+            "name": "name",
+            "registration_number": "registrationNumber"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_regulatoryinfo_matterinformation_principalproducttypes": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/regulatoryInfo/matterInformation/principalProductTypes",
+        "columns": {
+            "product": "product",
+            "product_other": "productOther"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_regulatoryinfo_regulatorybroughtininformation_courtinfo": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/regulatoryInfo/regulatoryBroughtInInformation/courtInfo",
+        "columns": {
+            "docket_or_case_no": "docketOrCaseNo",
+            "name": "name"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_regulatoryinfo_regulatorybroughtininformation_courtinfo_address": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/regulatoryInfo/regulatoryBroughtInInformation/courtInfo/address",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_regulatoryinfo_resolutiondetail": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/regulatoryInfo/resolutionDetail",
+        "columns": {
+            "amount_ordered": "amountOrdered"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_regulatoryinfo_resolutiondetail_sactionsordered": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/regulatoryInfo/resolutionDetail/sactionsOrdered",
+        "columns": {
+            "saction": "saction"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_regulatoryinfo_sanctiondetails_monetarysanctions": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/regulatoryInfo/sanctionDetails/monetarySanctions",
+        "columns": {
+            "amount_ordered": "amountOrdered",
+            "final_amount": "finalAmount",
+            "total_amount_ordered": "totalAmountOrdered"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_regulatoryinfo_sanctiondetails_monetarysanctions_paymentstate_paidinfull": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/regulatoryInfo/sanctionDetails/monetarySanctions/paymentState/paidInFull",
+        "columns": {
+            "amount_paid_in_full": "amountPaidInFull",
+            "paid_date": "paidDate"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_regulatoryinfo_sanctiondetails_suspended": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/regulatoryInfo/sanctionDetails/suspended",
+        "columns": {
+            "description": "description"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_regulatoryinfo_sanctiondetails_suspended_duration_durationtype": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/regulatoryInfo/sanctionDetails/suspended/duration/durationType",
+        "columns": {
+            "permanent": "permanent"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_regulatoryinfo_sanctiondetails_suspended_enddate": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/regulatoryInfo/sanctionDetails/suspended/endDate",
+        "columns": {
+            "date": "date"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_regulatoryinfo_sanctiondetails_suspended_enddate_explanationinfo": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/regulatoryInfo/sanctionDetails/suspended/endDate/explanationInfo",
+        "columns": {
+            "explanation": "explanation",
+            "provide_explanation": "provideExplanation"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_regulatoryinfo_sanctiondetails_suspended_startdate": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/regulatoryInfo/sanctionDetails/suspended/startDate",
+        "columns": {
+            "date": "date",
+            "exact": "exact"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_regulatoryinfo_sanctiondetails_suspended_startdate_explanationinfo": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/regulatoryInfo/sanctionDetails/suspended/startDate/explanationInfo",
+        "columns": {
+            "explanation": "explanation",
+            "provide_explanation": "provideExplanation"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_resolutionmatterinfo": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/resolutionMatterInfo",
+        "columns": {
+            "explanation": "explanation",
+            "is_final_order": "isFinalOrder",
+            "type": "type"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_resolutionmatterinfo_resolutiondate": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/resolutionMatterInfo/resolutionDate",
+        "columns": {
+            "date": "date",
+            "exact": "exact"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_resolutionmatterinfo_resolutiondate_explanationinfo": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/resolutionMatterInfo/resolutionDate/explanationInfo",
+        "columns": {
+            "explanation": "explanation",
+            "provide_explanation": "provideExplanation"
+        }
+    },
+    "formdata_drpinfo_regulatorydisclosure_regulatorydrp_drpdata_sactionssought": {
+        "anchor": "formData/drpInfo/regulatoryDisclosure/regulatoryDrp/drpData/sactionsSought",
+        "columns": {
+            "saction": "saction"
+        }
+    },
+    "formdata_drpinfo_terminationdisclosure_terminationdrp": {
+        "anchor": "formData/drpInfo/terminationDisclosure/terminationDrp",
+        "columns": {
+            "termination_questions": "terminationQuestions"
+        }
+    },
+    "formdata_drpinfo_terminationdisclosure_terminationdrp_baseheader_filinginfo_formadvbdfiling": {
+        "anchor": "formData/drpInfo/terminationDisclosure/terminationDrp/baseHeader/filingInfo/formADVBDFiling",
+        "columns": {
+            "crd_number": "crdNumber",
+            "disclosure_number": "disclosureNumber",
+            "filing_name": "filingName"
+        }
+    },
+    "formdata_drpinfo_terminationdisclosure_terminationdrp_baseheader_reponsetype": {
+        "anchor": "formData/drpInfo/terminationDisclosure/terminationDrp/baseHeader/reponseType",
+        "columns": {
+            "add": "add"
+        }
+    },
+    "formdata_drpinfo_terminationdisclosure_terminationdrp_drpdata": {
+        "anchor": "formData/drpInfo/terminationDisclosure/terminationDrp/drpData",
+        "columns": {
+            "allegation": "allegation",
+            "termination_type": "terminationType"
+        }
+    },
+    "formdata_drpinfo_terminationdisclosure_terminationdrp_drpdata_firminfo": {
+        "anchor": "formData/drpInfo/terminationDisclosure/terminationDrp/drpData/firmInfo",
+        "columns": {
+            "crd_number": "crdNumber",
+            "name": "name"
+        }
+    },
+    "formdata_drpinfo_terminationdisclosure_terminationdrp_drpdata_producttype": {
+        "anchor": "formData/drpInfo/terminationDisclosure/terminationDrp/drpData/productType",
+        "columns": {
+            "product": "product"
+        }
+    },
+    "formdata_drpinfo_terminationdisclosure_terminationdrp_drpdata_terminationdate": {
+        "anchor": "formData/drpInfo/terminationDisclosure/terminationDrp/drpData/terminationDate",
+        "columns": {
+            "date": "date",
+            "exact": "exact"
+        }
+    },
+    "formdata_employmenthistory_currentemployer": {
+        "anchor": "formData/employmentHistory/currentEmployer",
+        "columns": {
+            "is_related_to_investment": "isRelatedToInvestment",
+            "is_related_to_municipal_advisor": "isRelatedToMunicipalAdvisor",
+            "name": "name",
+            "position_description": "positionDescription",
+            "start_date": "startDate"
+        }
+    },
+    "formdata_employmenthistory_currentemployer_addressinfo": {
+        "anchor": "formData/employmentHistory/currentEmployer/addressInfo",
+        "columns": {
+            "city": "city",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_employmenthistory_currentemployer_addressinfo_stateorcountry": {
+        "anchor": "formData/employmentHistory/currentEmployer/addressInfo/stateOrCountry",
+        "columns": {
+            "state_or_country": "stateOrCountry"
+        }
+    },
+    "formdata_employmenthistory_prioremployers_prioremployer": {
+        "anchor": "formData/employmentHistory/priorEmployers/priorEmployer",
+        "columns": {
+            "end_date": "endDate",
+            "is_related_to_investment": "isRelatedToInvestment",
+            "is_related_to_municipal_advisor": "isRelatedToMunicipalAdvisor",
+            "name": "name",
+            "position_description": "positionDescription",
+            "start_date": "startDate"
+        }
+    },
+    "formdata_employmenthistory_prioremployers_prioremployer_addressinfo": {
+        "anchor": "formData/employmentHistory/priorEmployers/priorEmployer/addressInfo",
+        "columns": {
+            "city": "city",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_employmenthistory_prioremployers_prioremployer_addressinfo_stateorcountry": {
+        "anchor": "formData/employmentHistory/priorEmployers/priorEmployer/addressInfo/stateOrCountry",
+        "columns": {
+            "state_or_country": "stateOrCountry"
+        }
+    },
+    "formdata_municipaladvisoroffices_municipaladvisoroffice_advisoroffices_advisoroffice": {
+        "anchor": "formData/municipalAdvisorOffices/municipalAdvisorOffice/advisorOffices/advisorOffice",
+        "columns": {
+            "location_info": "locationInfo",
+            "start_date": "startDate"
+        }
+    },
+    "formdata_municipaladvisoroffices_municipaladvisoroffice_advisoroffices_advisoroffice_addressinfo_address": {
+        "anchor": "formData/municipalAdvisorOffices/municipalAdvisorOffice/advisorOffices/advisorOffice/addressInfo/address",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_municipaladvisoroffices_municipaladvisoroffice_maregistration_notsecregistered": {
+        "anchor": "formData/municipalAdvisorOffices/municipalAdvisorOffice/maRegistration/notSecRegistered",
+        "columns": {
+            "explanation": "explanation"
+        }
+    },
+    "formdata_municipaladvisoroffices_municipaladvisoroffice_maregistration_notsecregistered_hasfiled": {
+        "anchor": "formData/municipalAdvisorOffices/municipalAdvisorOffice/maRegistration/notSecRegistered/hasFiled",
+        "columns": {
+            "cik": "cik",
+            "filing_date": "filingDate"
+        }
+    },
+    "formdata_municipaladvisoroffices_municipaladvisoroffice_maregistration_secregistration": {
+        "anchor": "formData/municipalAdvisorOffices/municipalAdvisorOffice/maRegistration/secRegistration",
+        "columns": {
+            "file_number": "fileNumber"
+        }
+    },
+    "formdata_municipaladvisoroffices_municipaladvisoroffice_municipalfirm": {
+        "anchor": "formData/municipalAdvisorOffices/municipalAdvisorOffice/municipalFirm",
+        "columns": {
+            "is_independent_relatioship": "isIndependentRelatioship",
+            "municipal_dba_name": "municipalDbaName",
+            "municipal_firm_name": "municipalFirmName",
+            "recent_employment_commenced_date": "recentEmploymentCommencedDate"
+        }
+    },
+    "formdata_municipaladvisoroffices_municipaladvisoroffice_municipalfirm_municipalfiler": {
+        "anchor": "formData/municipalAdvisorOffices/municipalAdvisorOffice/municipalFirm/municipalFiler",
+        "columns": {
+            "filer_id": "filerId"
+        }
+    },
+    "formdata_otherbusinesses_otherbusiness": {
+        "anchor": "formData/otherBusinesses/otherBusiness",
+        "columns": {
+            "approximate_hours_or_months": "approximateHoursOrMonths",
+            "duties_description": "dutiesDescription",
+            "is_related_to_investment": "isRelatedToInvestment",
+            "is_related_to_municipal_advisor": "isRelatedToMunicipalAdvisor",
+            "name": "name",
+            "nature_of_business": "natureOfBusiness",
+            "position_description": "positionDescription",
+            "start_date": "startDate"
+        }
+    },
+    "formdata_otherbusinesses_otherbusiness_addressinfo": {
+        "anchor": "formData/otherBusinesses/otherBusiness/addressInfo",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_othernames_othername": {
+        "anchor": "formData/otherNames/otherName",
+        "columns": {
+            "first_name": "firstName",
+            "last_name": "lastName",
+            "middle_name": "middleName",
+            "suffix": "suffix"
+        }
+    },
+    "formdata_selfcertification": {
+        "anchor": "formData/selfCertification",
+        "columns": {
+            "crd_number": "crdNumber"
+        }
+    },
+    "formdata_selfcertification_signature": {
+        "anchor": "formData/selfCertification/signature",
+        "columns": {
+            "date_signed": "dateSigned",
+            "signature": "signature"
+        }
+    },
+    "formdata_selfcertification_signature_nameofapplicant": {
+        "anchor": "formData/selfCertification/signature/nameOfApplicant",
+        "columns": {
+            "first_name": "firstName",
+            "last_name": "lastName",
+            "middle_name": "middleName",
+            "suffix": "suffix"
+        }
+    },
+    "formdata_signatureinfo_signature": {
+        "anchor": "formData/signatureInfo/signature",
+        "columns": {
+            "date_signed": "dateSigned",
+            "signature": "signature",
+            "title": "title"
+        }
+    },
+    "headerdata": {
+        "anchor": "headerData",
+        "columns": {
+            "submission_type": "submissionType"
+        }
+    },
+    "headerdata_filerinfo": {
+        "anchor": "headerData/filerInfo",
+        "columns": {
+            "contact_email": "contactEmail",
+            "live_test_flag": "liveTestFlag"
+        }
+    },
+    "headerdata_filerinfo_contact": {
+        "anchor": "headerData/filerInfo/contact",
+        "columns": {
+            "name": "name",
+            "phone_number": "phoneNumber"
+        }
+    },
+    "headerdata_filerinfo_filer": {
+        "anchor": "headerData/filerInfo/filer",
+        "columns": {
+            "filer_ccc": "filerCcc",
+            "filer_id": "filerId"
+        }
+    },
+    "headerdata_filerinfo_notifications": {
+        "anchor": "headerData/filerInfo/notifications",
+        "columns": {
+            "internet_notification_address": "internetNotificationAddress"
+        }
+    }
+}

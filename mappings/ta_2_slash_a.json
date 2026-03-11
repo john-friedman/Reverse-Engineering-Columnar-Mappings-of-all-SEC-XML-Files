@@ -1,0 +1,350 @@
+{
+    "engagedasservicecompany": {
+        "anchor": "engagedAsServiceCompany",
+        "columns": {
+            "function": "function"
+        }
+    },
+    "engagedasservicecompany_asservicecompanytransferagent": {
+        "anchor": "engagedAsServiceCompany/asServiceCompanyTransferAgent",
+        "columns": {
+            "entity_name": "entityName",
+            "file_number": "fileNumber"
+        }
+    },
+    "engagedservicecompany": {
+        "anchor": "engagedServiceCompany",
+        "columns": {
+            "function": "function"
+        }
+    },
+    "engagedservicecompany_servicecompanytransferagent": {
+        "anchor": "engagedServiceCompany/serviceCompanyTransferAgent",
+        "columns": {
+            "entity_name": "entityName",
+            "file_number": "fileNumber"
+        }
+    },
+    "filer": {
+        "anchor": "filer",
+        "columns": {
+            "cik": "cik",
+            "file_number": "fileNumber"
+        }
+    },
+    "formdata_engagedservicecompany": {
+        "anchor": "formData/engagedServiceCompany",
+        "columns": {
+            "registrant_engaged_service": "registrantEngagedService",
+            "service_company": "serviceCompany"
+        }
+    },
+    "formdata_engagedservicecompany_asservicecompanytransferagent": {
+        "anchor": "formData/engagedServiceCompany/asServiceCompanyTransferAgent",
+        "columns": {
+            "entity_name": "entityName",
+            "file_number": "fileNumber"
+        }
+    },
+    "formdata_engagedservicecompany_servicecompanytransferagent": {
+        "anchor": "formData/engagedServiceCompany/serviceCompanyTransferAgent",
+        "columns": {
+            "entity_name": "entityName",
+            "file_number": "fileNumber"
+        }
+    },
+    "formdata_registrantregulatoryagency": {
+        "anchor": "formData/registrantRegulatoryAgency",
+        "columns": {
+            "additional_information": "additionalInformation",
+            "amendment_filed": "amendmentFiled",
+            "regulatory_agency": "regulatoryAgency"
+        }
+    },
+    "formdata_servicecompanydata": {
+        "anchor": "formData/serviceCompanyData",
+        "columns": {
+            "number_direct_regist_system_accounts": "numberDirectRegistSystemAccounts",
+            "number_div_reinv_dir_pur_plan_accounts": "numberDivReinvDirPurPlanAccounts",
+            "number_individual_accounts": "numberIndividualAccounts",
+            "number_items_received_for_transfer": "numberItemsReceivedForTransfer",
+            "number_lost_accounts_remitted_to_states": "numberLostAccountsRemittedToStates",
+            "number_master_security_holder_filings": "numberMasterSecurityHolderFilings"
+        }
+    },
+    "formdata_servicecompanydata_databasesearches": {
+        "anchor": "formData/serviceCompanyData/databaseSearches",
+        "columns": {
+            "database_search_date": "databaseSearchDate",
+            "number_addresses_from_search": "numberAddressesFromSearch",
+            "number_lost_accounts_searched": "numberLostAccountsSearched"
+        }
+    },
+    "formdata_servicecompanydata_securityholderaccounts": {
+        "anchor": "formData/serviceCompanyData/securityHolderAccounts",
+        "columns": {
+            "debt_security": "debtSecurity",
+            "equity_security": "equitySecurity",
+            "limited_partnership": "limitedPartnership",
+            "municipal_debt": "municipalDebt",
+            "open_end_investment_company": "openEndInvestmentCompany",
+            "other": "other"
+        }
+    },
+    "formdata_servicecompanydata_securityholderdata": {
+        "anchor": "formData/serviceCompanyData/securityHolderData",
+        "columns": {
+            "always_compliant": "alwaysCompliant",
+            "direct_registration_system": "directRegistrationSystem",
+            "dividend_reinv_direct_purchase_plan": "dividendReinvDirectPurchasePlan",
+            "number_filed": "numberFiled",
+            "number_months_not_compliant": "numberMonthsNotCompliant",
+            "number_notice_non_compliance_filed": "numberNoticeNonComplianceFiled",
+            "total": "total",
+            "total_other_than_receipt_order_date": "totalOtherThanReceiptOrderDate"
+        }
+    },
+    "formdata_servicecompanydata_securityholderdata_currentagent": {
+        "anchor": "formData/serviceCompanyData/securityHolderData/currentAgent",
+        "columns": {
+            "amount_issues": "amountIssues",
+            "number_issues": "numberIssues"
+        }
+    },
+    "formdata_servicecompanydata_securityholderdata_dividendandinterest": {
+        "anchor": "formData/serviceCompanyData/securityHolderData/dividendAndInterest",
+        "columns": {
+            "amount_issues": "amountIssues",
+            "number_issues": "numberIssues"
+        }
+    },
+    "formdata_servicecompanydata_securityholderdata_nottransmaintmastersecholder": {
+        "anchor": "formData/serviceCompanyData/securityHolderData/notTransMaintMasterSecHolder",
+        "columns": {
+            "debt_security": "debtSecurity",
+            "equity_security": "equitySecurity",
+            "limited_partnership": "limitedPartnership",
+            "municipal_debt": "municipalDebt",
+            "open_end_investment_company": "openEndInvestmentCompany",
+            "other": "other"
+        }
+    },
+    "formdata_servicecompanydata_securityholderdata_prioragent": {
+        "anchor": "formData/serviceCompanyData/securityHolderData/priorAgent",
+        "columns": {
+            "amount_issues": "amountIssues",
+            "number_issues": "numberIssues"
+        }
+    },
+    "formdata_servicecompanydata_securityholderdata_transmaintainmastersecholder": {
+        "anchor": "formData/serviceCompanyData/securityHolderData/transMaintainMasterSecHolder",
+        "columns": {
+            "debt_security": "debtSecurity",
+            "equity_security": "equitySecurity",
+            "limited_partnership": "limitedPartnership",
+            "municipal_debt": "municipalDebt",
+            "open_end_investment_company": "openEndInvestmentCompany",
+            "other": "other"
+        }
+    },
+    "formdata_servicecompanydata_securityholderdata_transnotmaintmastersecholder": {
+        "anchor": "formData/serviceCompanyData/securityHolderData/transNotMaintMasterSecHolder",
+        "columns": {
+            "debt_security": "debtSecurity",
+            "equity_security": "equitySecurity",
+            "limited_partnership": "limitedPartnership",
+            "municipal_debt": "municipalDebt",
+            "open_end_investment_company": "openEndInvestmentCompany",
+            "other": "other"
+        }
+    },
+    "formdata_signaturedata": {
+        "anchor": "formData/signatureData",
+        "columns": {
+            "signature_date": "signatureDate",
+            "signature_name": "signatureName",
+            "signature_phone_number": "signaturePhoneNumber",
+            "signature_title": "signatureTitle"
+        }
+    },
+    "headerdata": {
+        "anchor": "headerData",
+        "columns": {
+            "submission_type": "submissionType"
+        }
+    },
+    "headerdata_filerinfo": {
+        "anchor": "headerData/filerInfo",
+        "columns": {
+            "entity_name": "entityName",
+            "period_of_report": "periodOfReport",
+            "test_or_live": "testOrLive"
+        }
+    },
+    "headerdata_filerinfo_filer": {
+        "anchor": "headerData/filerInfo/filer",
+        "columns": {
+            "file_number": "fileNumber"
+        }
+    },
+    "headerdata_filerinfo_filer_filercredentials": {
+        "anchor": "headerData/filerInfo/filer/filerCredentials",
+        "columns": {
+            "ccc": "ccc",
+            "cik": "cik"
+        }
+    },
+    "headerdata_filerinfo_flags": {
+        "anchor": "headerData/filerInfo/flags",
+        "columns": {
+            "is_filing_amendment": "isFilingAmendment",
+            "return_copy": "returnCopy"
+        }
+    },
+    "inaccurateincompletemisleading": {
+        "anchor": "inaccurateIncompleteMisleading",
+        "columns": {
+            "additional_information": "additionalInformation",
+            "amendment_filed": "amendmentFiled"
+        }
+    },
+    "registrant": {
+        "anchor": "registrant",
+        "columns": {
+            "entity_name": "entityName"
+        }
+    },
+    "servicecompanydata": {
+        "anchor": "serviceCompanyData",
+        "columns": {
+            "number_direct_regist_system_accounts": "numberDirectRegistSystemAccounts",
+            "number_div_reinv_dir_pur_plan_accounts": "numberDivReinvDirPurPlanAccounts",
+            "number_individual_accounts": "numberIndividualAccounts",
+            "number_items_received_for_transfer": "numberItemsReceivedForTransfer",
+            "number_lost_accounts_remitted_to_states": "numberLostAccountsRemittedToStates",
+            "number_master_security_holder_filings": "numberMasterSecurityHolderFilings"
+        }
+    },
+    "servicecompanydata_databasesearch": {
+        "anchor": "serviceCompanyData/databaseSearch",
+        "columns": {
+            "database_search_date": "databaseSearchDate",
+            "number_addresses_from_search": "numberAddressesFromSearch",
+            "number_lost_accounts_searched": "numberLostAccountsSearched"
+        }
+    },
+    "servicecompanydata_securityholderaccounts": {
+        "anchor": "serviceCompanyData/securityHolderAccounts",
+        "columns": {
+            "debt_security": "debtSecurity",
+            "equity_security": "equitySecurity",
+            "limited_partnership": "limitedPartnership",
+            "municipal_debt": "municipalDebt",
+            "open_end_investment_company": "openEndInvestmentCompany",
+            "other": "other"
+        }
+    },
+    "servicecompanydata_securityholderdata_currentagent": {
+        "anchor": "serviceCompanyData/securityHolderData/currentAgent",
+        "columns": {
+            "amount_issues": "amountIssues",
+            "number_issues": "numberIssues"
+        }
+    },
+    "servicecompanydata_securityholderdata_directregistrationsystem": {
+        "anchor": "serviceCompanyData/securityHolderData/directRegistrationSystem",
+        "columns": {
+            "number_issues": "numberIssues"
+        }
+    },
+    "servicecompanydata_securityholderdata_dividendandinterest": {
+        "anchor": "serviceCompanyData/securityHolderData/dividendAndInterest",
+        "columns": {
+            "amount_issues": "amountIssues",
+            "number_issues": "numberIssues"
+        }
+    },
+    "servicecompanydata_securityholderdata_dividendreinvdirectpurchaseplan": {
+        "anchor": "serviceCompanyData/securityHolderData/dividendReinvDirectPurchasePlan",
+        "columns": {
+            "number_issues": "numberIssues"
+        }
+    },
+    "servicecompanydata_securityholderdata_nottransmaintmastersecholder": {
+        "anchor": "serviceCompanyData/securityHolderData/notTransMaintMasterSecHolder",
+        "columns": {
+            "debt_security": "debtSecurity",
+            "equity_security": "equitySecurity",
+            "limited_partnership": "limitedPartnership",
+            "municipal_debt": "municipalDebt",
+            "open_end_investment_company": "openEndInvestmentCompany",
+            "other": "other"
+        }
+    },
+    "servicecompanydata_securityholderdata_prioragent": {
+        "anchor": "serviceCompanyData/securityHolderData/priorAgent",
+        "columns": {
+            "amount_issues": "amountIssues",
+            "number_issues": "numberIssues"
+        }
+    },
+    "servicecompanydata_securityholderdata_purchaseredemptionpricingshares": {
+        "anchor": "serviceCompanyData/securityHolderData/purchaseRedemptionPricingShares",
+        "columns": {
+            "total": "total",
+            "total_other_than_receipt_order_date": "totalOtherThanReceiptOrderDate"
+        }
+    },
+    "servicecompanydata_securityholderdata_quarterlyreportsregardingbuyins": {
+        "anchor": "serviceCompanyData/securityHolderData/quarterlyReportsRegardingBuyIns",
+        "columns": {
+            "additional_information": "additionalInformation",
+            "file_all": "fileAll",
+            "number_filed": "numberFiled"
+        }
+    },
+    "servicecompanydata_securityholderdata_transmaintainmastersecholder": {
+        "anchor": "serviceCompanyData/securityHolderData/transMaintainMasterSecHolder",
+        "columns": {
+            "debt_security": "debtSecurity",
+            "equity_security": "equitySecurity",
+            "limited_partnership": "limitedPartnership",
+            "municipal_debt": "municipalDebt",
+            "open_end_investment_company": "openEndInvestmentCompany",
+            "other": "other"
+        }
+    },
+    "servicecompanydata_securityholderdata_transnotmaintmastersecholder": {
+        "anchor": "serviceCompanyData/securityHolderData/transNotMaintMasterSecHolder",
+        "columns": {
+            "debt_security": "debtSecurity",
+            "equity_security": "equitySecurity",
+            "limited_partnership": "limitedPartnership",
+            "municipal_debt": "municipalDebt",
+            "open_end_investment_company": "openEndInvestmentCompany",
+            "other": "other"
+        }
+    },
+    "servicecompanydata_securityholderdata_turnaroundcompliant": {
+        "anchor": "serviceCompanyData/securityHolderData/turnaroundCompliant",
+        "columns": {
+            "always_compliant": "alwaysCompliant"
+        }
+    },
+    "servicecompanydata_securityholderdata_turnaroundcompliant_noncompliantdata": {
+        "anchor": "serviceCompanyData/securityHolderData/turnaroundCompliant/nonCompliantData",
+        "columns": {
+            "number_months_not_compliant": "numberMonthsNotCompliant",
+            "number_notice_non_compliance_filed": "numberNoticeNonComplianceFiled"
+        }
+    },
+    "signaturedata": {
+        "anchor": "signatureData",
+        "columns": {
+            "signature_date": "signatureDate",
+            "signature_name": "signatureName",
+            "signature_phone_number": "signaturePhoneNumber",
+            "signature_title": "signatureTitle"
+        }
+    }
+}

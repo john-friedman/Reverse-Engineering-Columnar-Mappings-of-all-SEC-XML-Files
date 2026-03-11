@@ -1,0 +1,168 @@
+{
+    "formdata_generalinfo_applicantcategory": {
+        "anchor": "formData/generalInfo/applicantCategory",
+        "columns": {
+            "applcnt_type_conf_flag": "applcntTypeConfFlag",
+            "applicant_type": "applicantType",
+            "applicant_type_other_desc": "applicantTypeOtherDesc"
+        }
+    },
+    "formdata_generalinfo_assetclasses": {
+        "anchor": "formData/generalInfo/assetClasses",
+        "columns": {
+            "asset_classes_conf_flag": "assetClassesConfFlag",
+            "asset_classes_list": "assetClassesList"
+        }
+    },
+    "formdata_generalinfo_business_businessaddress": {
+        "anchor": "formData/generalInfo/business/businessAddress",
+        "columns": {
+            "business_address_conf_flag": "businessAddressConfFlag",
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_generalinfo_business_businessname": {
+        "anchor": "formData/generalInfo/business/businessName",
+        "columns": {
+            "name_on_business_conf_flag": "nameOnBusinessConfFlag"
+        }
+    },
+    "formdata_generalinfo_business_previousbusinessname": {
+        "anchor": "formData/generalInfo/business/previousBusinessName",
+        "columns": {
+            "previous_business_name_conf_flag": "previousBusinessNameConfFlag"
+        }
+    },
+    "formdata_generalinfo_consentaddress": {
+        "anchor": "formData/generalInfo/consentAddress",
+        "columns": {
+            "city": "city",
+            "consent_address_conf_flag": "consentAddressConfFlag",
+            "state_country": "stateCountry",
+            "street1": "street1",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_generalinfo_consentname": {
+        "anchor": "formData/generalInfo/consentName",
+        "columns": {
+            "applicant_name_or_applcbl_entity": "applicantNameOrApplcblEntity",
+            "consent_name_conf_flag": "consentNameConfFlag",
+            "person_name_or_officer_title": "personNameOrOfficerTitle"
+        }
+    },
+    "formdata_generalinfo_consentphone": {
+        "anchor": "formData/generalInfo/consentPhone",
+        "columns": {
+            "consent_phone_conf_flag": "consentPhoneConfFlag",
+            "phone": "phone"
+        }
+    },
+    "formdata_generalinfo_corporginfo": {
+        "anchor": "formData/generalInfo/corpOrgInfo",
+        "columns": {
+            "corprtn_org_conf_flag": "corprtnOrgConfFlag",
+            "date_of_coperation_org": "dateOfCoperationOrg",
+            "state_corperation_or_org": "stateCorperationOrOrg"
+        }
+    },
+    "formdata_generalinfo_functiondescription": {
+        "anchor": "formData/generalInfo/functionDescription",
+        "columns": {
+            "function_description_conf_flag": "functionDescriptionConfFlag",
+            "function_description_performed": "functionDescriptionPerformed"
+        }
+    },
+    "formdata_generalinfo_officeinfo": {
+        "anchor": "formData/generalInfo/officeInfo",
+        "columns": {
+            "office_conf_flag": "officeConfFlag"
+        }
+    },
+    "formdata_generalinfo_officeinfo_office": {
+        "anchor": "formData/generalInfo/officeInfo/office",
+        "columns": {
+            "city": "city",
+            "office_name": "officeName",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_generalinfo_partnershipinfo": {
+        "anchor": "formData/generalInfo/partnershipInfo",
+        "columns": {
+            "filing_prtnr_conf_flag": "filingPrtnrConfFlag"
+        }
+    },
+    "formdata_generalinfo_successor": {
+        "anchor": "formData/generalInfo/successor",
+        "columns": {
+            "predecessor_cik_flag": "predecessorCikFlag",
+            "predecessor_name_address_flag": "predecessorNameAddressFlag",
+            "succession_date_flag": "successionDateFlag",
+            "succession_flag": "successionFlag",
+            "successor_conf_flag": "successorConfFlag"
+        }
+    },
+    "formdata_principalinfo": {
+        "anchor": "formData/principalInfo",
+        "columns": {
+            "amended_items_list": "amendedItemsList",
+            "applicant_name": "applicantName",
+            "city": "city",
+            "prncpal_conf_flag": "prncpalConfFlag",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_signatureinfo": {
+        "anchor": "formData/signatureInfo",
+        "columns": {
+            "signature": "signature",
+            "signature_applicant_name": "signatureApplicantName",
+            "signature_confflag": "signatureConfflag",
+            "signature_date": "signatureDate",
+            "signature_title": "signatureTitle"
+        }
+    },
+    "headerdata": {
+        "anchor": "headerData",
+        "columns": {
+            "submission_type": "submissionType"
+        }
+    },
+    "headerdata_filerinfo": {
+        "anchor": "headerData/filerInfo",
+        "columns": {
+            "live_test_flag": "liveTestFlag"
+        }
+    },
+    "headerdata_filerinfo_contact": {
+        "anchor": "headerData/filerInfo/contact",
+        "columns": {
+            "contact_email_address": "contactEmailAddress",
+            "contact_name": "contactName",
+            "contact_phone_number": "contactPhoneNumber"
+        }
+    },
+    "headerdata_filerinfo_filer_filercredentials": {
+        "anchor": "headerData/filerInfo/filer/filerCredentials",
+        "columns": {
+            "ccc": "ccc",
+            "cik": "cik"
+        }
+    },
+    "headerdata_filerinfo_flags": {
+        "anchor": "headerData/filerInfo/flags",
+        "columns": {
+            "confirming_copy_flag": "confirmingCopyFlag",
+            "override_internet_flag": "overrideInternetFlag",
+            "return_copy_flag": "returnCopyFlag"
+        }
+    }
+}

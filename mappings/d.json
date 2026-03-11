@@ -30,6 +30,22 @@
         }
     },
 
+    "primary_issuer_previous_names": {
+        "anchor": "primaryIssuer/issuerPreviousNameList",
+        "columns": {
+            "previous_name": "previousName",
+            "value":         "value"
+        }
+    },
+
+    "primary_issuer_edgar_previous_names": {
+        "anchor": "primaryIssuer/edgarPreviousNameList",
+        "columns": {
+            "previous_name": "previousName",
+            "value":         "value"
+        }
+    },
+
     "issuer_list": {
         "anchor": "issuerList/issuer",
         "columns": {
@@ -52,6 +68,29 @@
         }
     },
 
+    "issuer_list_previous_names": {
+        "anchor": "issuerList/issuer/issuerPreviousNameList",
+        "columns": {
+            "previous_name": "previousName",
+            "value":         "value"
+        }
+    },
+
+    "issuer_list_edgar_previous_names": {
+        "anchor": "issuerList/issuer/edgarPreviousNameList",
+        "columns": {
+            "previous_name": "previousName",
+            "value":         "value"
+        }
+    },
+
+    "issuer_list_meta": {
+        "anchor": "issuerList",
+        "columns": {
+            "over_100_issuer_flag": "over100IssuerFlag"
+        }
+    },
+
     "related_persons": {
         "anchor": "relatedPersonsList/relatedPersonInfo",
         "columns": {
@@ -66,6 +105,13 @@
             "zip":                          "relatedPersonAddress/zipCode",
             "relationship":                 "relatedPersonRelationshipList/relationship",
             "relationship_clarification":   "relationshipClarification"
+        }
+    },
+
+    "related_persons_meta": {
+        "anchor": "relatedPersonsList",
+        "columns": {
+            "over_100_persons_flag": "over100PersonsFlag"
         }
     },
 
@@ -133,6 +179,13 @@
         }
     },
 
+    "sales_compensation_meta": {
+        "anchor": "offeringData/salesCompensationList",
+        "columns": {
+            "over_100_recipient_flag": "over100RecipientFlag"
+        }
+    },
+
     "signature": {
         "anchor": "offeringData/signatureBlock/signature",
         "columns": {
@@ -141,6 +194,13 @@
             "signature_name":   "signatureName",
             "signature_title":  "signatureTitle",
             "signature_date":   "signatureDate"
+        }
+    },
+
+    "signature_block_meta": {
+        "anchor": "offeringData/signatureBlock",
+        "columns": {
+            "authorized_representative": "authorizedRepresentative"
         }
     }
 }

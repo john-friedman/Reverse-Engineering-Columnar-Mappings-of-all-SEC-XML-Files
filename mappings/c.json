@@ -1,0 +1,123 @@
+{
+    "formdata_annualreportdisclosurerequirements": {
+        "anchor": "formData/annualReportDisclosureRequirements",
+        "columns": {
+            "act_received_most_recent_fiscal_year": "actReceivedMostRecentFiscalYear",
+            "act_received_prior_fiscal_year": "actReceivedPriorFiscalYear",
+            "cash_equi_most_recent_fiscal_year": "cashEquiMostRecentFiscalYear",
+            "cash_equi_prior_fiscal_year": "cashEquiPriorFiscalYear",
+            "cost_goods_sold_most_recent_fiscal_year": "costGoodsSoldMostRecentFiscalYear",
+            "cost_goods_sold_prior_fiscal_year": "costGoodsSoldPriorFiscalYear",
+            "current_employees": "currentEmployees",
+            "issue_jurisdiction_securities_offering": "issueJurisdictionSecuritiesOffering",
+            "long_term_debt_most_recent_fiscal_year": "longTermDebtMostRecentFiscalYear",
+            "long_term_debt_prior_fiscal_year": "longTermDebtPriorFiscalYear",
+            "net_income_most_recent_fiscal_year": "netIncomeMostRecentFiscalYear",
+            "net_income_prior_fiscal_year": "netIncomePriorFiscalYear",
+            "revenue_most_recent_fiscal_year": "revenueMostRecentFiscalYear",
+            "revenue_prior_fiscal_year": "revenuePriorFiscalYear",
+            "short_term_debt_most_recent_fiscal_year": "shortTermDebtMostRecentFiscalYear",
+            "short_term_debt_prior_fiscal_year": "shortTermDebtPriorFiscalYear",
+            "tax_paid_most_recent_fiscal_year": "taxPaidMostRecentFiscalYear",
+            "tax_paid_prior_fiscal_year": "taxPaidPriorFiscalYear",
+            "total_asset_most_recent_fiscal_year": "totalAssetMostRecentFiscalYear",
+            "total_asset_prior_fiscal_year": "totalAssetPriorFiscalYear"
+        }
+    },
+    "formdata_issuerinformation": {
+        "anchor": "formData/issuerInformation",
+        "columns": {
+            "commission_cik": "commissionCik",
+            "commission_file_number": "commissionFileNumber",
+            "company_name": "companyName",
+            "crd_number": "crdNumber",
+            "is_co_issuer": "isCoIssuer"
+        }
+    },
+    "formdata_issuerinformation_issuerinfo": {
+        "anchor": "formData/issuerInformation/issuerInfo",
+        "columns": {
+            "issuer_website": "issuerWebsite",
+            "name_of_issuer": "nameOfIssuer"
+        }
+    },
+    "formdata_issuerinformation_issuerinfo_issueraddress": {
+        "anchor": "formData/issuerInformation/issuerInfo/issuerAddress",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_issuerinformation_issuerinfo_legalstatus": {
+        "anchor": "formData/issuerInformation/issuerInfo/legalStatus",
+        "columns": {
+            "date_incorporation": "dateIncorporation",
+            "jurisdiction_organization": "jurisdictionOrganization",
+            "legal_status_form": "legalStatusForm"
+        }
+    },
+    "formdata_offeringinformation": {
+        "anchor": "formData/offeringInformation",
+        "columns": {
+            "compensation_amount": "compensationAmount",
+            "deadline_date": "deadlineDate",
+            "desc_over_subscription": "descOverSubscription",
+            "financial_interest": "financialInterest",
+            "maximum_offering_amount": "maximumOfferingAmount",
+            "no_of_security_offered": "noOfSecurityOffered",
+            "offering_amount": "offeringAmount",
+            "over_subscription_accepted": "overSubscriptionAccepted",
+            "over_subscription_allocation_type": "overSubscriptionAllocationType",
+            "price": "price",
+            "price_determination_method": "priceDeterminationMethod",
+            "security_offered_other_desc": "securityOfferedOtherDesc",
+            "security_offered_type": "securityOfferedType"
+        }
+    },
+    "formdata_signatureinfo_issuersignature": {
+        "anchor": "formData/signatureInfo/issuerSignature",
+        "columns": {
+            "issuer": "issuer",
+            "issuer_signature": "issuerSignature",
+            "issuer_title": "issuerTitle"
+        }
+    },
+    "formdata_signatureinfo_signaturepersons_signatureperson": {
+        "anchor": "formData/signatureInfo/signaturePersons/signaturePerson",
+        "columns": {
+            "person_signature": "personSignature",
+            "person_title": "personTitle",
+            "signature_date": "signatureDate"
+        }
+    },
+    "headerdata": {
+        "anchor": "headerData",
+        "columns": {
+            "submission_type": "submissionType"
+        }
+    },
+    "headerdata_filerinfo": {
+        "anchor": "headerData/filerInfo",
+        "columns": {
+            "live_test_flag": "liveTestFlag"
+        }
+    },
+    "headerdata_filerinfo_filer_filercredentials": {
+        "anchor": "headerData/filerInfo/filer/filerCredentials",
+        "columns": {
+            "filer_ccc": "filerCcc",
+            "filer_cik": "filerCik"
+        }
+    },
+    "headerdata_filerinfo_flags": {
+        "anchor": "headerData/filerInfo/flags",
+        "columns": {
+            "confirming_copy_flag": "confirmingCopyFlag",
+            "override_internet_flag": "overrideInternetFlag",
+            "return_copy_flag": "returnCopyFlag"
+        }
+    }
+}

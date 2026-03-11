@@ -1,0 +1,97 @@
+{
+    "formdata_certificationsuspension": {
+        "anchor": "formData/certificationSuspension",
+        "columns": {
+            "approx_record_holders": "approxRecordHolders",
+            "certification_file_number": "certificationFileNumber",
+            "securities_class_title": "securitiesClassTitle"
+        }
+    },
+    "formdata_item1": {
+        "anchor": "formData/item1",
+        "columns": {
+            "city": "city",
+            "commission_file_number": "commissionFileNumber",
+            "issuer_name": "issuerName",
+            "phone": "phone",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_signaturetab": {
+        "anchor": "formData/signatureTab",
+        "columns": {
+            "cik": "cik",
+            "date": "date",
+            "regulation_issuer_name1": "regulationIssuerName1",
+            "regulation_issuer_name2": "regulationIssuerName2",
+            "signature_by": "signatureBy",
+            "title": "title"
+        }
+    },
+    "formdata_summaryinfooffering": {
+        "anchor": "formData/summaryInfoOffering",
+        "columns": {
+            "auditor_fees": "auditorFees",
+            "auditor_sp_name": "auditorSpName",
+            "blue_sky_fees": "blueSkyFees",
+            "blue_sky_sp_name": "blueSkySpName",
+            "clarification_responses": "clarificationResponses",
+            "crd_number_broker_dealer": "crdNumberBrokerDealer",
+            "finders_fees": "findersFees",
+            "finders_sp_name": "findersSpName",
+            "issuer_net_proceeds": "issuerNetProceeds",
+            "legal_fees": "legalFees",
+            "legal_sp_name": "legalSpName",
+            "offering_commence_date": "offeringCommenceDate",
+            "offering_qualification_date": "offeringQualificationDate",
+            "offering_securities_qualified_sold": "offeringSecuritiesQualifiedSold",
+            "offering_securities_sold": "offeringSecuritiesSold",
+            "portion_securities_sold_issuer": "portionSecuritiesSoldIssuer",
+            "portion_securities_sold_securityholders": "portionSecuritiesSoldSecurityholders",
+            "price_per_security": "pricePerSecurity",
+            "promoter_sp_name": "promoterSpName",
+            "promoters_fees": "promotersFees",
+            "sales_commissions_fee": "salesCommissionsFee",
+            "sales_commissions_sp_name": "salesCommissionsSpName",
+            "underwriter_fees": "underwriterFees",
+            "underwritten_sp_name": "underwrittenSpName"
+        }
+    },
+    "headerdata": {
+        "anchor": "headerData",
+        "columns": {
+            "submission_type": "submissionType"
+        }
+    },
+    "headerdata_filerinfo": {
+        "anchor": "headerData/filerInfo",
+        "columns": {
+            "live_test_flag": "liveTestFlag"
+        }
+    },
+    "headerdata_filerinfo_filer": {
+        "anchor": "headerData/filerInfo/filer",
+        "columns": {
+            "file_number": "fileNumber"
+        }
+    },
+    "headerdata_filerinfo_filer_issuercredentials": {
+        "anchor": "headerData/filerInfo/filer/issuerCredentials",
+        "columns": {
+            "ccc": "ccc",
+            "cik": "cik"
+        }
+    },
+    "headerdata_filerinfo_flags": {
+        "anchor": "headerData/filerInfo/flags",
+        "columns": {
+            "confirming_copy_flag": "confirmingCopyFlag",
+            "override_internet_flag": "overrideInternetFlag",
+            "return_copy_flag": "returnCopyFlag",
+            "successor_filing_flag": "successorFilingFlag"
+        }
+    }
+}

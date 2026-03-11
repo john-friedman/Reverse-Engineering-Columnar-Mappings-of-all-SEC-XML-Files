@@ -1,0 +1,114 @@
+{
+    "shortsaledatainfo_fridaydata": {
+        "anchor": "shortSaleDataInfo/fridayData",
+        "columns": {
+            "sale_date": "saleDate"
+        }
+    },
+    "shortsaledatainfo_fridaydata_shortsaledatalist": {
+        "anchor": "shortSaleDataInfo/fridayData/shortSaleDataList",
+        "columns": {
+            "cusip": "cusip",
+            "name_of_issuer": "nameOfIssuer",
+            "number_securities_sold_short": "numberSecuritiesSoldShort",
+            "short_end_position": "shortEndPosition",
+            "short_start_position": "shortStartPosition"
+        }
+    },
+    "shortsaledatainfo_mondaydata": {
+        "anchor": "shortSaleDataInfo/mondayData",
+        "columns": {
+            "sale_date": "saleDate"
+        }
+    },
+    "shortsaledatainfo_mondaydata_shortsaledatalist": {
+        "anchor": "shortSaleDataInfo/mondayData/shortSaleDataList",
+        "columns": {
+            "cusip": "cusip",
+            "name_of_issuer": "nameOfIssuer",
+            "number_securities_sold_short": "numberSecuritiesSoldShort",
+            "short_end_position": "shortEndPosition",
+            "short_start_position": "shortStartPosition"
+        }
+    },
+    "shortsaledatainfo_saturdaydata": {
+        "anchor": "shortSaleDataInfo/saturdayData",
+        "columns": {
+            "sale_date": "saleDate"
+        }
+    },
+    "shortsaledatainfo_saturdaydata_shortsaledatalist": {
+        "anchor": "shortSaleDataInfo/saturdayData/shortSaleDataList",
+        "columns": {
+            "cusip": "cusip",
+            "name_of_issuer": "nameOfIssuer",
+            "number_securities_sold_short": "numberSecuritiesSoldShort",
+            "short_end_position": "shortEndPosition",
+            "short_start_position": "shortStartPosition"
+        }
+    },
+    "shortsaledatainfo_sundaydata": {
+        "anchor": "shortSaleDataInfo/sundayData",
+        "columns": {
+            "sale_date": "saleDate"
+        }
+    },
+    "shortsaledatainfo_sundaydata_shortsaledatalist": {
+        "anchor": "shortSaleDataInfo/sundayData/shortSaleDataList",
+        "columns": {
+            "cusip": "cusip",
+            "name_of_issuer": "nameOfIssuer",
+            "number_securities_sold_short": "numberSecuritiesSoldShort",
+            "short_end_position": "shortEndPosition",
+            "short_start_position": "shortStartPosition"
+        }
+    },
+    "shortsaledatainfo_thursdaydata": {
+        "anchor": "shortSaleDataInfo/thursdayData",
+        "columns": {
+            "sale_date": "saleDate"
+        }
+    },
+    "shortsaledatainfo_thursdaydata_shortsaledatalist": {
+        "anchor": "shortSaleDataInfo/thursdayData/shortSaleDataList",
+        "columns": {
+            "cusip": "cusip",
+            "name_of_issuer": "nameOfIssuer",
+            "number_securities_sold_short": "numberSecuritiesSoldShort",
+            "short_end_position": "shortEndPosition",
+            "short_start_position": "shortStartPosition"
+        }
+    },
+    "shortsaledatainfo_tuesdaydata": {
+        "anchor": "shortSaleDataInfo/tuesdayData",
+        "columns": {
+            "sale_date": "saleDate"
+        }
+    },
+    "shortsaledatainfo_tuesdaydata_shortsaledatalist": {
+        "anchor": "shortSaleDataInfo/tuesdayData/shortSaleDataList",
+        "columns": {
+            "cusip": "cusip",
+            "name_of_issuer": "nameOfIssuer",
+            "number_securities_sold_short": "numberSecuritiesSoldShort",
+            "short_end_position": "shortEndPosition",
+            "short_start_position": "shortStartPosition"
+        }
+    },
+    "shortsaledatainfo_wednesdaydata": {
+        "anchor": "shortSaleDataInfo/wednesdayData",
+        "columns": {
+            "sale_date": "saleDate"
+        }
+    },
+    "shortsaledatainfo_wednesdaydata_shortsaledatalist": {
+        "anchor": "shortSaleDataInfo/wednesdayData/shortSaleDataList",
+        "columns": {
+            "cusip": "cusip",
+            "name_of_issuer": "nameOfIssuer",
+            "number_securities_sold_short": "numberSecuritiesSoldShort",
+            "short_end_position": "shortEndPosition",
+            "short_start_position": "shortStartPosition"
+        }
+    }
+}

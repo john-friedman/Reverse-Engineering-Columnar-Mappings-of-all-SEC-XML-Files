@@ -1,0 +1,101 @@
+{
+    "formdata_accountantidentification": {
+        "anchor": "formData/accountantIdentification",
+        "columns": {
+            "accountant_name": "accountantName",
+            "accountant_type": "accountantType"
+        }
+    },
+    "formdata_accountantidentification_accountantaddress": {
+        "anchor": "formData/accountantIdentification/accountantAddress",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_oathsignature": {
+        "anchor": "formData/oathSignature",
+        "columns": {
+            "confirm_notarized_flag": "confirmNotarizedFlag",
+            "entity_name": "entityName",
+            "explanation": "explanation",
+            "oath_title": "oathTitle",
+            "sign_date": "signDate",
+            "sign_person_name": "signPersonName",
+            "signature": "signature"
+        }
+    },
+    "formdata_registrantidentification": {
+        "anchor": "formData/registrantIdentification",
+        "columns": {
+            "broker_dealer_name": "brokerDealerName",
+            "contact_person_name": "contactPersonName",
+            "contact_person_phone_number": "contactPersonPhoneNumber"
+        }
+    },
+    "formdata_registrantidentification_businessaddress": {
+        "anchor": "formData/registrantIdentification/businessAddress",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_submissioninformation": {
+        "anchor": "formData/submissionInformation",
+        "columns": {
+            "material_weakness": "materialWeakness",
+            "period_begin": "periodBegin",
+            "period_end": "periodEnd",
+            "sub_type_of_bdregistrant": "subTypeOfBDRegistrant",
+            "sub_type_of_registrant": "subTypeOfRegistrant",
+            "sub_type_of_sdregistrant": "subTypeOfSDRegistrant"
+        }
+    },
+    "formdata_submissioninformation_typeofregistrant": {
+        "anchor": "formData/submissionInformation/typeOfRegistrant",
+        "columns": {
+            "type_of_bdregistrant": "typeOfBDRegistrant",
+            "type_of_sdregistrant": "typeOfSDRegistrant"
+        }
+    },
+    "headerdata": {
+        "anchor": "headerData",
+        "columns": {
+            "submission_type": "submissionType"
+        }
+    },
+    "headerdata_filerinfo": {
+        "anchor": "headerData/filerInfo",
+        "columns": {
+            "live_test_flag": "liveTestFlag"
+        }
+    },
+    "headerdata_filerinfo_filer": {
+        "anchor": "headerData/filerInfo/filer",
+        "columns": {
+            "confirming008_copy_number": "confirming008CopyNumber",
+            "confirming_copy_number": "confirmingCopyNumber"
+        }
+    },
+    "headerdata_filerinfo_filer_filercredentials": {
+        "anchor": "headerData/filerInfo/filer/filerCredentials",
+        "columns": {
+            "filer_ccc": "filerCcc",
+            "filer_cik": "filerCik"
+        }
+    },
+    "headerdata_filerinfo_flags": {
+        "anchor": "headerData/filerInfo/flags",
+        "columns": {
+            "confirming_copy_flag": "confirmingCopyFlag",
+            "override_internet_flag": "overrideInternetFlag",
+            "return_copy_flag": "returnCopyFlag"
+        }
+    }
+}

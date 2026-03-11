@@ -4,8 +4,8 @@ from mappings.all import SEC_DOCUMENTS_MAPPING
 import json
 
 portfolio = Portfolio('test')
-doc_type = "13F-HR"
-portfolio.download_submissions(document_type=doc_type,filing_date=('2021-01-01','2021-01-31'))
+doc_type = "N-PX"
+portfolio.download_submissions(document_type=doc_type,filing_date=('2026-01-01','2026-01-31'))
 
 for sub in portfolio:
     for doc in sub:

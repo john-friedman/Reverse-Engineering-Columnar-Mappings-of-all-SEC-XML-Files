@@ -1,0 +1,275 @@
+{
+    "filer": {
+        "anchor": "filer",
+        "columns": {
+            "cik": "cik",
+            "file_number": "fileNumber"
+        }
+    },
+    "formdata_documentretention": {
+        "anchor": "formData/documentRetention",
+        "columns": {
+            "successor_transfer_agents": "successorTransferAgents"
+        }
+    },
+    "formdata_documentretention_tawcustodians": {
+        "anchor": "formData/documentRetention/tawCustodians",
+        "columns": {
+            "entity_name": "entityName"
+        }
+    },
+    "formdata_documentretention_tawcustodians_tawcustodianaddress": {
+        "anchor": "formData/documentRetention/tawCustodians/tawCustodianAddress",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_documentretention_tawlocations": {
+        "anchor": "formData/documentRetention/tawLocations",
+        "columns": {
+            "entity_name": "entityName"
+        }
+    },
+    "formdata_documentretention_tawlocations_tawlocationaddress": {
+        "anchor": "formData/documentRetention/tawLocations/tawLocationAddress",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_documentretention_tawsuccessordetails": {
+        "anchor": "formData/documentRetention/tawSuccessorDetails",
+        "columns": {
+            "entity_name": "entityName",
+            "successor_registered": "successorRegistered"
+        }
+    },
+    "formdata_documentretention_tawsuccessordetails_tawsuccessoraddress": {
+        "anchor": "formData/documentRetention/tawSuccessorDetails/tawSuccessorAddress",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_legalaction": {
+        "anchor": "formData/legalAction",
+        "columns": {
+            "involved": "involved",
+            "unsatisfied_judgments_involved": "unsatisfiedJudgmentsInvolved"
+        }
+    },
+    "formdata_legalaction_subjectofproceedingsdetails": {
+        "anchor": "formData/legalAction/subjectOfProceedingsDetails",
+        "columns": {
+            "action_date": "actionDate",
+            "action_description": "actionDescription",
+            "action_title": "actionTitle",
+            "court_or_body_name_and_location": "courtOrBodyNameAndLocation",
+            "disposition_of_proceeding": "dispositionOfProceeding",
+            "entity_name": "entityName"
+        }
+    },
+    "formdata_legalaction_unsatisfiedjudgementorliensdetails": {
+        "anchor": "formData/legalAction/unsatisfiedJudgementOrLiensDetails",
+        "columns": {
+            "action_date": "actionDate",
+            "action_description": "actionDescription",
+            "action_title": "actionTitle",
+            "court_or_body_name_and_location": "courtOrBodyNameAndLocation",
+            "disposition_of_proceeding": "dispositionOfProceeding",
+            "entity_name": "entityName"
+        }
+    },
+    "formdata_registrant": {
+        "anchor": "formData/registrant",
+        "columns": {
+            "activities_conducted_entity_name": "activitiesConductedEntityName",
+            "entity_name": "entityName",
+            "file_number": "fileNumber"
+        }
+    },
+    "formdata_registrant_businessaddress": {
+        "anchor": "formData/registrant/businessAddress",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_signaturedata": {
+        "anchor": "formData/signatureData",
+        "columns": {
+            "signature_date": "signatureDate",
+            "signature_name": "signatureName",
+            "signature_phone_number": "signaturePhoneNumber",
+            "signature_title": "signatureTitle"
+        }
+    },
+    "formdata_withdrawal": {
+        "anchor": "formData/withdrawal",
+        "columns": {
+            "future_transfer_agent_functions": "futureTransferAgentFunctions",
+            "last_action_date": "lastActionDate",
+            "withdrawal_description": "withdrawalDescription"
+        }
+    },
+    "headerdata": {
+        "anchor": "headerData",
+        "columns": {
+            "submission_type": "submissionType"
+        }
+    },
+    "headerdata_filerinfo": {
+        "anchor": "headerData/filerInfo",
+        "columns": {
+            "live_test_flag": "liveTestFlag"
+        }
+    },
+    "headerdata_filerinfo_filer_filercredentials": {
+        "anchor": "headerData/filerInfo/filer/filerCredentials",
+        "columns": {
+            "ccc": "ccc",
+            "cik": "cik"
+        }
+    },
+    "headerdata_filerinfo_flags": {
+        "anchor": "headerData/filerInfo/flags",
+        "columns": {
+            "return_copy_flag": "returnCopyFlag"
+        }
+    },
+    "registrant": {
+        "anchor": "registrant",
+        "columns": {
+            "activities_conducted_entity_name": "activitiesConductedEntityName",
+            "entity_name": "entityName",
+            "future_transfer_agent_functions": "futureTransferAgentFunctions",
+            "last_action_date": "lastActionDate",
+            "withdrawal_description": "withdrawalDescription"
+        }
+    },
+    "registrant_businessaddress": {
+        "anchor": "registrant/businessAddress",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "state_or_country_code": "stateOrCountryCode",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    },
+    "registrant_subjectofproceedings": {
+        "anchor": "registrant/subjectOfProceedings",
+        "columns": {
+            "involved": "involved"
+        }
+    },
+    "registrant_subjectofproceedings_subjectofproceedingsdetails": {
+        "anchor": "registrant/subjectOfProceedings/subjectOfProceedingsDetails",
+        "columns": {
+            "action_date": "actionDate",
+            "action_description": "actionDescription",
+            "action_title": "actionTitle",
+            "court_or_body_name_and_location": "courtOrBodyNameAndLocation",
+            "disposition_of_proceeding": "dispositionOfProceeding",
+            "entity_name": "entityName"
+        }
+    },
+    "registrant_unsatisfiedjudgementsorliens": {
+        "anchor": "registrant/unsatisfiedJudgementsOrLiens",
+        "columns": {
+            "involved": "involved"
+        }
+    },
+    "registrant_unsatisfiedjudgementsorliens_unsatisfiedjudgementorliensdetails": {
+        "anchor": "registrant/unsatisfiedJudgementsOrLiens/unsatisfiedJudgementOrLiensDetails",
+        "columns": {
+            "action_date": "actionDate",
+            "action_description": "actionDescription",
+            "action_title": "actionTitle",
+            "court_or_body_name_and_location": "courtOrBodyNameAndLocation",
+            "disposition_of_proceeding": "dispositionOfProceeding",
+            "entity_name": "entityName"
+        }
+    },
+    "signaturedata": {
+        "anchor": "signatureData",
+        "columns": {
+            "signature_date": "signatureDate",
+            "signature_name": "signatureName",
+            "signature_phone_number": "signaturePhoneNumber",
+            "signature_title": "signatureTitle"
+        }
+    },
+    "tawdetails_tawcustodians": {
+        "anchor": "tawDetails/tawCustodians",
+        "columns": {
+            "entity_name": "entityName"
+        }
+    },
+    "tawdetails_tawcustodians_tawcustodianaddress": {
+        "anchor": "tawDetails/tawCustodians/tawCustodianAddress",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "state_or_country_code": "stateOrCountryCode",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    },
+    "tawdetails_tawlocations": {
+        "anchor": "tawDetails/tawLocations",
+        "columns": {
+            "entity_name": "entityName"
+        }
+    },
+    "tawdetails_tawlocations_tawlocationaddress": {
+        "anchor": "tawDetails/tawLocations/tawLocationAddress",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "state_or_country_code": "stateOrCountryCode",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    },
+    "tawdetails_tawsuccessors": {
+        "anchor": "tawDetails/tawSuccessors",
+        "columns": {
+            "successor_transfer_agents": "successorTransferAgents"
+        }
+    },
+    "tawdetails_tawsuccessors_tawsuccessordetails": {
+        "anchor": "tawDetails/tawSuccessors/tawSuccessorDetails",
+        "columns": {
+            "entity_name": "entityName",
+            "successor_registered": "successorRegistered"
+        }
+    },
+    "tawdetails_tawsuccessors_tawsuccessordetails_tawsuccessoraddress": {
+        "anchor": "tawDetails/tawSuccessors/tawSuccessorDetails/tawSuccessorAddress",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "state_or_country_code": "stateOrCountryCode",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    }
+}

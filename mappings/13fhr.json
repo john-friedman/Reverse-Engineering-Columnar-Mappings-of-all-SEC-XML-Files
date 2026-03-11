@@ -30,7 +30,7 @@
             "crd_number":                       "crdNumber",
             "sec_file_number":                  "secFileNumber",
             "is_amendment":                     "isAmendment",
-            "amendment_no":                     "amendmentInfo/amendmentNo",
+            "amendment_no":                     "amendmentNo",
             "amendment_type":                   "amendmentInfo/amendmentType",
             "conf_denied_expired":              "amendmentInfo/confDeniedExpired",
             "date_denied_expired":              "amendmentInfo/dateDeniedExpired",

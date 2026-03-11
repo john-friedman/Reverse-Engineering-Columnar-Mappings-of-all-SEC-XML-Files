@@ -1,0 +1,37 @@
+{
+    "exchange": {
+        "anchor": "exchange",
+        "columns": {
+            "cik": "cik",
+            "entity_name": "entityName"
+        }
+    },
+    "issuer": {
+        "anchor": "issuer",
+        "columns": {
+            "cik": "cik",
+            "entity_name": "entityName",
+            "file_number": "fileNumber",
+            "telephone_number": "telephoneNumber"
+        }
+    },
+    "issuer_address": {
+        "anchor": "issuer/address",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "state_or_country_code": "stateOrCountryCode",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    },
+    "signaturedata": {
+        "anchor": "signatureData",
+        "columns": {
+            "signature_date": "signatureDate",
+            "signature_name": "signatureName",
+            "signature_title": "signatureTitle"
+        }
+    }
+}

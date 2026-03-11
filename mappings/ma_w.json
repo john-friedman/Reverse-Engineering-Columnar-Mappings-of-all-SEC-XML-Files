@@ -1,0 +1,195 @@
+{
+    "formdata": {
+        "anchor": "formData",
+        "columns": {
+            "file_number": "fileNumber",
+            "full_legal_name": "fullLegalName",
+            "is_advisory_contract": "isAdvisoryContract",
+            "is_borrowed_not_repaid": "isBorrowedNotRepaid",
+            "is_received_any_prepaid_fee": "isReceivedAnyPrepaidFee",
+            "is_unsatisfied_judgements_or_liens": "isUnsatisfiedJudgementsOrLiens"
+        }
+    },
+    "formdata_advisorycontractassignments_advisorycontract": {
+        "anchor": "formData/advisoryContractAssignments/advisoryContract",
+        "columns": {
+            "name": "name",
+            "phone_number": "phoneNumber"
+        }
+    },
+    "formdata_advisorycontractassignments_advisorycontract_addressinfo_address": {
+        "anchor": "formData/advisoryContractAssignments/advisoryContract/addressInfo/address",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_booksandrecords_personlocation_locationinfo": {
+        "anchor": "formData/booksAndRecords/personLocation/locationInfo",
+        "columns": {
+            "description": "description"
+        }
+    },
+    "formdata_booksandrecords_personlocation_locationinfo_nameaddressphone": {
+        "anchor": "formData/booksAndRecords/personLocation/locationInfo/nameAddressPhone",
+        "columns": {
+            "name": "name",
+            "phone_number": "phoneNumber"
+        }
+    },
+    "formdata_booksandrecords_personlocation_locationinfo_nameaddressphone_addressinfo_address": {
+        "anchor": "formData/booksAndRecords/personLocation/locationInfo/nameAddressPhone/addressInfo/address",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_booksandrecords_personlocation_personinfo": {
+        "anchor": "formData/booksAndRecords/personLocation/personInfo",
+        "columns": {
+            "name": "name",
+            "phone_number": "phoneNumber"
+        }
+    },
+    "formdata_booksandrecords_personlocation_personinfo_addressinfo_address": {
+        "anchor": "formData/booksAndRecords/personLocation/personInfo/addressInfo/address",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_contactpersoninfo": {
+        "anchor": "formData/contactPersonInfo",
+        "columns": {
+            "email": "email",
+            "title": "title"
+        }
+    },
+    "formdata_contactpersoninfo_nameaddressphone": {
+        "anchor": "formData/contactPersonInfo/nameAddressPhone",
+        "columns": {
+            "phone_number": "phoneNumber"
+        }
+    },
+    "formdata_contactpersoninfo_nameaddressphone_addressinfo_address": {
+        "anchor": "formData/contactPersonInfo/nameAddressPhone/addressInfo/address",
+        "columns": {
+            "city": "city",
+            "state_or_country": "stateOrCountry",
+            "street1": "street1",
+            "street2": "street2",
+            "zip_code": "zipCode"
+        }
+    },
+    "formdata_contactpersoninfo_nameaddressphone_individualname": {
+        "anchor": "formData/contactPersonInfo/nameAddressPhone/individualName",
+        "columns": {
+            "first_name": "firstName",
+            "last_name": "lastName",
+            "middle_name": "middleName"
+        }
+    },
+    "formdata_execution_muncipaladvisoryfirm": {
+        "anchor": "formData/execution/muncipalAdvisoryFirm",
+        "columns": {
+            "date": "date",
+            "signature": "signature",
+            "signer_name": "signerName",
+            "title": "title"
+        }
+    },
+    "formdata_execution_soleproprietor": {
+        "anchor": "formData/execution/soleProprietor",
+        "columns": {
+            "date": "date",
+            "signature": "signature",
+            "signer_name": "signerName",
+            "title": "title"
+        }
+    },
+    "formdata_statementoffinancials_assetinfo": {
+        "anchor": "formData/statementOfFinancials/assetInfo",
+        "columns": {
+            "total_asset": "totalAsset",
+            "total_fixed_asset": "totalFixedAsset"
+        }
+    },
+    "formdata_statementoffinancials_assetinfo_currentassets": {
+        "anchor": "formData/statementOfFinancials/assetInfo/currentAssets",
+        "columns": {
+            "cash": "cash",
+            "non_marketable_securities": "nonMarketableSecurities",
+            "other_current_assets": "otherCurrentAssets",
+            "securities_at_market": "securitiesAtMarket",
+            "total_current_assets": "totalCurrentAssets"
+        }
+    },
+    "formdata_statementoffinancials_liabiltyandsharholdersequityinfo": {
+        "anchor": "formData/statementOfFinancials/liabiltyAndSharholdersEquityInfo",
+        "columns": {
+            "total_liabilties_and_shareholders_equity": "totalLiabiltiesAndShareholdersEquity",
+            "total_shareholders_equity": "totalShareholdersEquity"
+        }
+    },
+    "formdata_statementoffinancials_liabiltyandsharholdersequityinfo_currentliabilties": {
+        "anchor": "formData/statementOfFinancials/liabiltyAndSharholdersEquityInfo/currentLiabilties",
+        "columns": {
+            "other_current_liabilities": "otherCurrentLiabilities",
+            "other_short_term_loans": "otherShortTermLoans",
+            "prepaid_advisory_fees": "prepaidAdvisoryFees",
+            "short_term_loans_from_clients": "shortTermLoansFromClients",
+            "total_current_liabilities": "totalCurrentLiabilities"
+        }
+    },
+    "formdata_statementoffinancials_liabiltyandsharholdersequityinfo_fixedliabilities": {
+        "anchor": "formData/statementOfFinancials/liabiltyAndSharholdersEquityInfo/fixedLiabilities",
+        "columns": {
+            "long_term_debt_owed": "longTermDebtOwed",
+            "other_long_term_debt": "otherLongTermDebt",
+            "other_long_term_liabilities": "otherLongTermLiabilities",
+            "total_fixed_liabilities": "totalFixedLiabilities"
+        }
+    },
+    "headerdata": {
+        "anchor": "headerData",
+        "columns": {
+            "submission_type": "submissionType"
+        }
+    },
+    "headerdata_filerinfo": {
+        "anchor": "headerData/filerInfo",
+        "columns": {
+            "contact_email": "contactEmail"
+        }
+    },
+    "headerdata_filerinfo_contact": {
+        "anchor": "headerData/filerInfo/contact",
+        "columns": {
+            "name": "name",
+            "phone_number": "phoneNumber"
+        }
+    },
+    "headerdata_filerinfo_filer": {
+        "anchor": "headerData/filerInfo/filer",
+        "columns": {
+            "filer_ccc": "filerCcc",
+            "filer_file_number": "filerFileNumber",
+            "filer_id": "filerId"
+        }
+    },
+    "headerdata_filerinfo_notifications": {
+        "anchor": "headerData/filerInfo/notifications",
+        "columns": {
+            "internet_notification_address": "internetNotificationAddress"
+        }
+    }
+}
