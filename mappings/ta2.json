@@ -68,10 +68,13 @@
         "/edgarSubmission/formData/serviceCompanyData/securityHolderAccounts/municipalDebt": "securityHolderAccountsMunicipalDebt",
         "/edgarSubmission/formData/serviceCompanyData/securityHolderAccounts/openEndInvestmentCompany": "securityHolderAccountsOpenEndInvestmentCompany",
         "/edgarSubmission/formData/serviceCompanyData/securityHolderAccounts/other": "securityHolderAccountsOther",
+        "/edgarSubmission/formData/serviceCompanyData/securityHolderData/additionalInformation": "registrantRegulatoryAgencyAdditionalInformation",
         "/edgarSubmission/formData/serviceCompanyData/securityHolderData/alwaysCompliant": "alwaysCompliant",
         "/edgarSubmission/formData/serviceCompanyData/securityHolderData/directRegistrationSystem": "directRegistrationSystem",
         "/edgarSubmission/formData/serviceCompanyData/securityHolderData/dividendReinvDirectPurchasePlan": "dividendReinvDirectPurchasePlan",
         "/edgarSubmission/formData/serviceCompanyData/securityHolderData/numberFiled": "numberFiled",
+        "/edgarSubmission/formData/serviceCompanyData/securityHolderData/numberMonthsNotCompliant": "alwaysCompliant",
+        "/edgarSubmission/formData/serviceCompanyData/securityHolderData/numberNoticeNonComplianceFiled": "numberFiled",
         "/edgarSubmission/formData/serviceCompanyData/securityHolderData/total": "total",
         "/edgarSubmission/formData/serviceCompanyData/securityHolderData/totalOtherThanReceiptOrderDate": "totalOtherThanReceiptOrderDate",
         "/edgarSubmission/headerData/filerInfo/filer/fileNumber": "filerFileNumber",
@@ -93,6 +96,7 @@
         "/edgarSubmission/serviceCompanyData/securityHolderData/priorAgent/numberIssues": "priorAgentNumberIssues",
         "/edgarSubmission/serviceCompanyData/securityHolderData/purchaseRedemptionPricingShares/total": "purchaseRedemptionPricingSharesTotal",
         "/edgarSubmission/serviceCompanyData/securityHolderData/purchaseRedemptionPricingShares/totalOtherThanReceiptOrderDate": "purchaseRedemptionPricingSharesTotalOtherThanReceiptOrderDate",
+        "/edgarSubmission/serviceCompanyData/securityHolderData/quarterlyReportsRegardingBuyIns/additionalInformation": "registrantRegulatoryAgencyAdditionalInformation",
         "/edgarSubmission/serviceCompanyData/securityHolderData/quarterlyReportsRegardingBuyIns/numberFiled": "quarterlyReportsRegardingBuyInsNumberFiled",
         "/edgarSubmission/serviceCompanyData/securityHolderData/transMaintainMasterSecHolder/debtSecurity": "transMaintainMasterSecHolderDebtSecurity",
         "/edgarSubmission/serviceCompanyData/securityHolderData/transMaintainMasterSecHolder/equitySecurity": "transMaintainMasterSecHolderEquitySecurity",
@@ -132,6 +136,8 @@
         "/edgarSubmission/formData/serviceCompanyData/securityHolderData/transNotMaintMasterSecHolder/openEndInvestmentCompany": "securityHolderDataTransNotMaintMasterSecHolderOpenEndInvestmentCompany",
         "/edgarSubmission/formData/serviceCompanyData/securityHolderData/transNotMaintMasterSecHolder/other": "securityHolderDataTransNotMaintMasterSecHolderOther",
         "/edgarSubmission/headerData/filerInfo/filer/filerCredentials/ccc": "ccc",
-        "/edgarSubmission/headerData/filerInfo/filer/filerCredentials/cik": "filerCredentialsCik"
+        "/edgarSubmission/headerData/filerInfo/filer/filerCredentials/cik": "filerCredentialsCik",
+        "/edgarSubmission/serviceCompanyData/securityHolderData/turnaroundCompliant/nonCompliantData/numberMonthsNotCompliant": "turnaroundCompliantAlwaysCompliant",
+        "/edgarSubmission/serviceCompanyData/securityHolderData/turnaroundCompliant/nonCompliantData/numberNoticeNonComplianceFiled": "numberFiled"
     }
 }
