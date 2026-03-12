@@ -49,4 +49,8 @@ SEC_DOCUMENTS_MAPPING = {
     "SH-ER" : _load("sher.json"),
     "SDR"   : _load("sdr.json"),
     "SDR/A" : _load("sdr.json"),
+    "CFPORTAL"   : _load("cfportal.json"),
+    "CFPORTAL/A" : _load("cfportal.json"),
+    "EX-103" : _load("ex103.json"),
+    "EX-102" : _load("ex102.json"),
 }

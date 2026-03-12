@@ -1,0 +1,10 @@
+{
+  "ex_103": {
+    "/comments/commentData/fieldName": "fieldName",
+    "/comments/commentData/comment": "comment",
+    "/comments/commentData/itemNumber": "itemNumber",
+    "/comments/commentData/commentNumber": "commentNumber",
+    "/comments/commentData/commentDescription": "commentDescription",
+    "/comments/commentData/commentColumn": "commentColumn"
+  }
+}

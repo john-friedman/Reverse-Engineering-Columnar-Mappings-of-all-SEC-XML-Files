@@ -4,12 +4,13 @@ from mappings.all import SEC_DOCUMENTS_MAPPING
 from src.utils import print_tables
 import shutil
 import os
+import json
 
 if os.path.exists('test'):
     shutil.rmtree('test')
 portfolio = Portfolio('test')
-doc_type = ["SH-ER","SH-ER"]
-portfolio.download_submissions(document_type=doc_type,filing_date=('2001-01-01','2026-01-31'))
+doc_type = ["EX-102"]
+portfolio.download_submissions(document_type=doc_type,filing_date=('2026-01-01','2026-01-31'))
 
 for sub in portfolio:
     for doc in sub:
@@ -17,7 +18,10 @@ for sub in portfolio:
             continue
         if doc.type in doc_type:
             rows = parser(doc.content,mapping=SEC_DOCUMENTS_MAPPING[doc.type])
-
+            with open('local.json','w') as f:
+                f.write(str(rows))
+            
+            #print(len(rows))
             print_tables(rows)
             #print(doc.content)
             input()
