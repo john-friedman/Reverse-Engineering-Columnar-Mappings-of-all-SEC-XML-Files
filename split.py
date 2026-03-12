@@ -3,7 +3,7 @@ from mappings.all import SEC_DOCUMENTS_MAPPING
 
 IGNORED_KEYS = {"EX-2.01.INS", "EX-100.CAL","EX-100.LAB","EX-100.PRE","EX-100.REF","EX-100.DEF","EX-101.LAB","EX-101.PRE","EX-101.DEF","EX-101.CAL"}
 
-THRESHOLD = 50  # XPaths with count below this will be filtered out
+THRESHOLD = 0  # XPaths with count below this will be filtered out
 
 def process_xpaths(input_file, threshold=THRESHOLD):
     with open(input_file, 'r') as f:
