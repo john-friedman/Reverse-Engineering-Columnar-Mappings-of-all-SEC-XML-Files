@@ -8,8 +8,8 @@ import os
 if os.path.exists('test'):
     shutil.rmtree('test')
 portfolio = Portfolio('test')
-doc_type = ["X-17A-5"]
-portfolio.download_submissions(document_type=doc_type,filing_date=('2020-01-01','2020-01-31'))
+doc_type = ["N-PX","N-PX/A"]
+portfolio.download_submissions(document_type=doc_type,filing_date=('2026-01-01','2026-01-31'))
 
 for sub in portfolio:
     for doc in sub:
