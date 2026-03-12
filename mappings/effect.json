@@ -1,53 +1,27 @@
 {
-    "submission": {
-        "anchor": "edgarSubmission",
-        "columns": {
-            "submission_type":  "submissionType",
-            "act":              "act",
-            "test_or_live":     "testOrLive",
-            "schema_version":   "schemaVersion"
-        }
+    "effect": {
+        "/edgarSubmission/submissionType": "submissionType",
+        "/edgarSubmission/act": "act",
+        "/edgarSubmission/testOrLive": "testOrLive",
+        "/edgarSubmission/effectiveData/finalEffectivenessDispDate": "finalEffectivenessDispDate",
+        "/edgarSubmission/effectiveData/finalEffectivenessDispTime": "finalEffectivenessDispTime",
+        "/edgarSubmission/effectiveData/form": "form",
+        "/edgarSubmission/effectiveData/filer/cik": "cik",
+        "/edgarSubmission/effectiveData/filer/entityName": "entityName",
+        "/edgarSubmission/effectiveData/filer/fileNumber": "fileNumber"
     },
-
-    "effective_data": {
-        "anchor": "effectiveData",
-        "columns": {
-            "entity_name":                  "filer/entityName",
-            "file_number":                  "filer/fileNumber",
-            "cik":                          "filer/cik",
-            "form":                         "form",
-            "submission_type":              "submissionType",
-            "accession_number":             "accessionNumber",
-            "final_effectiveness_date":     "finalEffectivenessDispDate",
-            "final_effectiveness_time":     "finalEffectivenessDispTime"
-        }
-    },
-
-    "existing_series": {
-        "anchor": "effectiveData/filer/seriesClassContractData/existing",
-        "columns": {
-            "series_id":            "seriesId",
-            "series_name":          "seriesName",
-            "class_contract_id":    "classContractId",
-            "class_contract_name":  "classContractName"
-        }
-    },
-
-    "merger": {
-        "anchor": "effectiveData/filer/seriesClassContractData/merger",
-        "columns": {
-            "acquiring_cik":                "acquiringCik",
-            "acquiring_entity_name":        "acquiringEntityName",
-            "acquiring_series_id":          "acquiringSeriesId",
-            "acquiring_series_name":        "acquiringSeriesName",
-            "acquiring_class_contract_id":  "acquiringClassContractId",
-            "acquiring_class_contract_name":"acquiringClassContractName",
-            "target_cik":                   "targetCik",
-            "target_entity_name":           "targetEntityName",
-            "target_series_id":             "targetSeriesId",
-            "target_series_name":           "targetSeriesName",
-            "target_class_contract_id":     "targetClassContractId",
-            "target_class_contract_name":   "targetClassContractName"
-        }
+    "effect_merger": {
+        "/edgarSubmission/effectiveData/filer/seriesClassContractData/merger/acquiringCik": "acquiringCik",
+        "/edgarSubmission/effectiveData/filer/seriesClassContractData/merger/acquiringEntityName": "acquiringEntityName",
+        "/edgarSubmission/effectiveData/filer/seriesClassContractData/merger/acquiringSeriesId": "acquiringSeriesId",
+        "/edgarSubmission/effectiveData/filer/seriesClassContractData/merger/acquiringSeriesName": "acquiringSeriesName",
+        "/edgarSubmission/effectiveData/filer/seriesClassContractData/merger/acquiringClassContractId": "acquiringClassContractId",
+        "/edgarSubmission/effectiveData/filer/seriesClassContractData/merger/acquiringClassContractName": "acquiringClassContractName",
+        "/edgarSubmission/effectiveData/filer/seriesClassContractData/merger/targetCik": "targetCik",
+        "/edgarSubmission/effectiveData/filer/seriesClassContractData/merger/targetEntityName": "targetEntityName",
+        "/edgarSubmission/effectiveData/filer/seriesClassContractData/merger/targetSeriesId": "targetSeriesId",
+        "/edgarSubmission/effectiveData/filer/seriesClassContractData/merger/targetSeriesName": "targetSeriesName",
+        "/edgarSubmission/effectiveData/filer/seriesClassContractData/merger/targetClassContractId": "targetClassContractId",
+        "/edgarSubmission/effectiveData/filer/seriesClassContractData/merger/targetClassContractName": "targetClassContractName"
     }
 }

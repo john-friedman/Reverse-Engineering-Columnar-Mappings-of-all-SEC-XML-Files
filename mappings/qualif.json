@@ -1,23 +1,12 @@
 {
-    "effective_data": {
-        "anchor": "effectiveData",
-        "columns": {
-            "entity_name":                  "filer/entityName",
-            "file_number":                  "filer/fileNumber",
-            "cik":                          "filer/cik",
-            "form":                         "form",
-            "final_effectiveness_date":     "finalEffectivenessDispDate",
-            "final_effectiveness_time":     "finalEffectivenessDispTime"
-        }
-    },
-
-    "submission": {
-        "anchor": "edgarSubmission",
-        "columns": {
-            "submission_type":  "submissionType",
-            "act":              "act",
-            "test_or_live":     "testOrLive",
-            "schema_version":   "schemaVersion"
-        }
+    "qualif": {
+        "/edgarSubmission/effectiveData/filer/entityName": "entityName",
+        "/edgarSubmission/act": "act",
+        "/edgarSubmission/submissionType": "submissionType",
+        "/edgarSubmission/effectiveData/finalEffectivenessDispDate": "finalEffectivenessDispDate",
+        "/edgarSubmission/effectiveData/filer/fileNumber": "fileNumber",
+        "/edgarSubmission/effectiveData/form": "form",
+        "/edgarSubmission/effectiveData/filer/cik": "cik",
+        "/edgarSubmission/effectiveData/finalEffectivenessDispTime": "finalEffectivenessDispTime"
     }
 }
