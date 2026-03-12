@@ -8,7 +8,7 @@ import os
 if os.path.exists('test'):
     shutil.rmtree('test')
 portfolio = Portfolio('test')
-doc_type = ["13F-HR","13F-HR/A"]
+doc_type = ["SCHEDULE 13G"]
 portfolio.download_submissions(document_type=doc_type,filing_date=('2026-01-01','2026-01-31'))
 
 for sub in portfolio:

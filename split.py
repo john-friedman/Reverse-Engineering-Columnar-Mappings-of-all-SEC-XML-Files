@@ -1,6 +1,8 @@
 import json
 from mappings.all import SEC_DOCUMENTS_MAPPING
 
+IGNORED_KEYS = {"EX-2.01.INS", "EX-100.CAL","EX-100.LAB","EX-100.PRE","EX-100.REF","EX-100.DEF","EX-101.LAB","EX-101.PRE","EX-101.DEF","EX-101.CAL"}
+
 def split_json_by_at_symbol(input_file):
     """
     Split a JSON file into two outputs:
@@ -12,6 +14,7 @@ def split_json_by_at_symbol(input_file):
     the entire form type goes to the 'attributes' file. Otherwise, 'no_attributes'.
     
     Skips form types already present in SEC_DOCUMENTS_MAPPING.
+    Skips form types in IGNORED_KEYS.
     """
     
     with open(input_file, 'r') as f:
@@ -22,11 +25,17 @@ def split_json_by_at_symbol(input_file):
     
     already_mapped = set(SEC_DOCUMENTS_MAPPING.keys())
     skipped = []
+    ignored = []
 
     for form_type, xpath_dict in data.items():
         # Skip form types already handled in SEC_DOCUMENTS_MAPPING
         if form_type in already_mapped:
             skipped.append(form_type)
+            continue
+
+        # Skip ignored keys
+        if form_type in IGNORED_KEYS:
+            ignored.append(form_type)
             continue
 
         # Remove @schemaLocation keys before evaluating
@@ -58,6 +67,10 @@ def split_json_by_at_symbol(input_file):
     print(f"Total form types: {len(data)}")
     print(f"\n⏭️  Skipped (already in SEC_DOCUMENTS_MAPPING): {len(skipped)}")
     for k in skipped:
+        print(f"   - {k}")
+
+    print(f"\n🚫 Ignored (in IGNORED_KEYS): {len(ignored)}")
+    for k in ignored:
         print(f"   - {k}")
 
     print(f"\n✅ WITH '@' (attributes)    → {output_attributes}")

@@ -15,6 +15,5 @@ Mappings is currently in .py format, will be converted to .json in the future.
 - xpaths generated using [datamule's](https://github.com/john-friedman/datamule-python) SEC Archive. It took about 2 hours using a c8g.xlarge. This was due to bandwidth limitation by Cloudflare at around 200MB/s.
 
 ## TODO
-download the new xpaths that have values
 parser works, but needs attribute handling
-pretty print for tables
+need to reduce number of names (errors)
