@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-_DIR = Path(__file__).parent
+_DIR = Path("mappings")
 
 
 def _load(filename: str):

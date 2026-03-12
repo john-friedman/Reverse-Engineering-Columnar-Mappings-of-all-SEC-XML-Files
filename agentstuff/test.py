@@ -1,6 +1,6 @@
 from datamule import Portfolio
 from src.parser import parser
-from mappings.all import SEC_DOCUMENTS_MAPPING
+from all import SEC_DOCUMENTS_MAPPING
 from src.utils import print_tables
 import shutil
 import os
