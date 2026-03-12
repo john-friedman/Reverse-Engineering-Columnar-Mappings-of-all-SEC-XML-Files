@@ -16,4 +16,5 @@ Mappings is currently in .py format, will be converted to .json in the future.
 
 ## TODO
 parser works, but needs attribute handling
+get all working, then compare to see if need to merge.
 get all basic then handle malformed xpath, etc (jsut lower threshold)

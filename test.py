@@ -9,8 +9,8 @@ import json
 if os.path.exists('test'):
     shutil.rmtree('test')
 portfolio = Portfolio('test')
-doc_type = ["EX-102"]
-portfolio.download_submissions(document_type=doc_type,filing_date=('2026-01-01','2026-01-31'))
+doc_type = ["4"]
+portfolio.download_submissions(document_type=doc_type,filing_date=('2026-01-01','2026-01-05'))
 
 for sub in portfolio:
     for doc in sub:

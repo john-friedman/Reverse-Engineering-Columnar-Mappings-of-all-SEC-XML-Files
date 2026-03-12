@@ -1,0 +1,20 @@
+{
+    "sbse_c": {
+        "/edgarSubmission/headerData/submissionType": "submissionType",
+        "/edgarSubmission/formData/certificationOne/applicantName": "applicantName",
+        "/edgarSubmission/formData/certificationOne/cerApplicantName": "cerApplicantName",
+        "/edgarSubmission/formData/certificationOne/cerDate": "cerDate",
+        "/edgarSubmission/formData/certificationOne/name": "name",
+        "/edgarSubmission/formData/certificationOne/signature": "signature",
+        "/edgarSubmission/formData/certificationOne/title": "title",
+        "/edgarSubmission/formData/certificationTwo/applicantName": "certificationTwoApplicantName",
+        "/edgarSubmission/formData/certificationTwo/cerApplicantName": "certificationTwoCerApplicantName",
+        "/edgarSubmission/formData/certificationTwo/cerDate": "certificationTwoCerDate",
+        "/edgarSubmission/formData/certificationTwo/name": "certificationTwoName",
+        "/edgarSubmission/formData/certificationTwo/signature": "certificationTwoSignature",
+        "/edgarSubmission/headerData/filerInfo/flags/overrideInternetFlag": "overrideInternetFlag",
+        "/edgarSubmission/headerData/filerInfo/flags/returnCopyFlag": "returnCopyFlag",
+        "/edgarSubmission/headerData/filerInfo/filer/filerCredentials/filerCcc": "filerCcc",
+        "/edgarSubmission/headerData/filerInfo/filer/filerCredentials/filerCik": "filerCik"
+    }
+}
