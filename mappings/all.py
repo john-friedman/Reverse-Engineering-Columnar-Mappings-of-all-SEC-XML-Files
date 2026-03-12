@@ -9,7 +9,7 @@ def _load(filename: str):
 
 
 SEC_DOCUMENTS_MAPPING = {
-    "INFORMATION TABLE": _load("information_table.json"),
+    "INFORMATION TABLE": _load("informationtable.json"),
     "QUALIF" : _load("qualif.json"),
     "EFFECT" : _load("effect.json"),
     "25-NSE" : _load("25nse.json"),
@@ -26,4 +26,14 @@ SEC_DOCUMENTS_MAPPING = {
     "N-PX/A" :  _load("npx.json"),
     "144" :  _load("144.json"),
     "144/A" :  _load("144.json"),
+    "SCHEDULE 13D" :  _load("schedule13d.json"),
+    "SCHEDULE 13D/A" :  _load("schedule13d.json"),
+    "1-Z" :  _load("1z.json"),
+    "1-Z/A" :  _load("1z.json"),
+    "1-A" :  _load("1a.json"),
+    "1-A POS" :  _load("1a.json"),
+    "DOS":   _load("dos.json"),
+"DOS/A": _load("dos.json"),
+"13F-HR" : _load("13fhr.json"),
+"13F-HR/A" : _load("13fhr.json"),
 }
